@@ -1,0 +1,36 @@
+{
+  "scene": "kicker",
+  "role": "validation",
+  "root": "data/ETH3D/kicker",
+  "selection_protocol": "adjacent lexicographic frames; stride-32 ETH3D evaluable>=200; five nearest evenly spaced index quantiles including endpoints; ties earlier; frozen before network evaluation",
+  "qualifying_pairs": 26,
+  "selected_indices": [
+    0,
+    6,
+    12,
+    19,
+    25
+  ],
+  "pairs": [
+    [
+      "DSC_6487.JPG",
+      "DSC_6489.JPG"
+    ],
+    [
+      "DSC_6494.JPG",
+      "DSC_6495.JPG"
+    ],
+    [
+      "DSC_6502.JPG",
+      "DSC_6503.JPG"
+    ],
+    [
+      "DSC_6511.JPG",
+      "DSC_6512.JPG"
+    ],
+    [
+      "DSC_6519.JPG",
+      "DSC_6520.JPG"
+    ]
+  ]
+}

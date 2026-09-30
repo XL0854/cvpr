@@ -16,6 +16,8 @@
 6. 在三个代表样本上检查坐标、TPS 正反映射、反向采样和梯度；数值检查均通过。
 7. 发现 Adam-150 的新增残差优化存在求解不足和结构可行边界问题，但这不是 RopStitch 内部缺陷。
 8. 完成 15 对统一强基线：A、C-Adam、C-LBFGS、D-LBFGS，并计入 L-BFGS 强 Wolfe 线搜索的耗时和评价次数。
+9. 完成普通 RGB 残余网络第一阶段：冻结 RopStitch，固定单侧 13×13 残余、零初始化输出、几何/已对齐保护/结构/重叠损失。
+10. 新增 ETH3D `kicker` 验证场景和锁定的 `terrace` 测试场景；图对规则在网络评价前冻结，场景之间不随机混拆。
 
 ## 最终开发集结果
 
@@ -38,6 +40,16 @@ C-LBFGS 获得约 91% 的完整 D 降幅、93.6% 的等耗时 D 降幅。返回�
 
 现有15对都参与过诊断，只能作为开发证据。当前尚未找到足以直接支持新网络的稳定机制缺口。对应筛选和 alpha 方向继续归档。
 
+## 普通残余网络阶段结果
+
+- 单样本拟合检查通过：`courtyard 0286→0287` 独立点误差 4.33→2.41 px，零折叠，已对齐区域未退化。
+- 15 对训练场景：A 36.71 px、同口径 C-LBFGS 23.37 px、普通网络 27.93 px。
+- 新场景 `kicker` 验证：A 42.29 px、普通网络 41.61 px，仅 2/5 对改善；部分已对齐区域明显退化。
+- 平均重叠采样保留 99.70%，采样折叠率为 0；网络前向 CPU 组件计时约 4.7 ms，不作为 GPU 部署时间。
+- `terrace` 锁定测试没有打开；普通版本未通过跨场景门槛，因此没有实现内容引导传播模块。
+
+结论：当前 RGB 残余学习没有证明比 C-LBFGS 提供稳定额外收益，不值得继续扩大训练或包装论文机制。完整记录见 `residual_learning_20260930/REPORT.md`。
+
 ## 关键材料
 
 - `diagnostics_parallax_20260929/FROZEN_STRONG_BASELINE_REVIEW.md`
@@ -47,7 +59,10 @@ C-LBFGS 获得约 91% 的完整 D 降幅、93.6% 的等耗时 D 降幅。返回�
 - `diagnostics_parallax_20260929/runs/unified_strong_baseline_review/failure_region_maps.jpg`
 - `diagnostics_parallax_20260929/runs/residual_bottleneck_frozen3/REPORT.md`
 - `diagnostics_parallax_20260929/final_cross_scene_audit/FINAL_REPORT.md`
+- `residual_learning_20260930/REPORT.md`
+- `residual_learning_20260930/runs/plain_frozen_split/per_pair.csv`
+- `residual_learning_20260930/runs/plain_frozen_split/plain_residual_model.pth`
 
 ## 下一步决策
 
-先做聚焦文献查新：结构保持的局部非刚性拼接、稀疏/不均匀匹配支撑下的网格优化、可行域约束求解。如果这些问题已有充分常规解法，应更换切口。未经新证据，不训练筛选器、不增加模块、不扩数据。
+普通残余网络已按预设门槛提前停止。不要打开 terrace 测试继续调参，也不要自动加入内容引导传播模块。下一步应先决定是否扩大多场景训练数据；若不扩大，应更换研究切口。

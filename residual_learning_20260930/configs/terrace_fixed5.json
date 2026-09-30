@@ -1,0 +1,36 @@
+{
+  "scene": "terrace",
+  "role": "locked_test",
+  "root": "data/ETH3D/terrace",
+  "selection_protocol": "adjacent lexicographic frames; stride-32 ETH3D evaluable>=200; five nearest evenly spaced index quantiles including endpoints; ties earlier; frozen before network evaluation",
+  "qualifying_pairs": 22,
+  "selected_indices": [
+    0,
+    5,
+    10,
+    16,
+    21
+  ],
+  "pairs": [
+    [
+      "DSC_0259.JPG",
+      "DSC_0260.JPG"
+    ],
+    [
+      "DSC_0264.JPG",
+      "DSC_0266.JPG"
+    ],
+    [
+      "DSC_0270.JPG",
+      "DSC_0271.JPG"
+    ],
+    [
+      "DSC_0276.JPG",
+      "DSC_0277.JPG"
+    ],
+    [
+      "DSC_0284.JPG",
+      "DSC_0285.JPG"
+    ]
+  ]
+}

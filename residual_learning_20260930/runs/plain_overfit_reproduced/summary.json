@@ -1,0 +1,37 @@
+{
+  "status": "complete",
+  "development_only": true,
+  "device": "cpu",
+  "parameters": 42306,
+  "train_seconds": 4.841315441997722,
+  "epochs": 150,
+  "train_pairs": 1,
+  "weights": {
+    "protection": 1.0,
+    "anchor": 0.002,
+    "smooth": 0.02,
+    "triangle": 10.0,
+    "tps": 100.0,
+    "overlap": 10.0
+  },
+  "splits": {
+    "train": {
+      "pairs": 15,
+      "held_n": 32017,
+      "A_held_mean": 36.70936653186384,
+      "B_LBFGS_pairs": 15,
+      "B_LBFGS_held_mean": 23.36698189224291,
+      "C_plain_held_mean": 36.96464345340268,
+      "B_improved_pairs": 13,
+      "C_improved_pairs": 4,
+      "mean_overlap_retention": 0.9980417211850484,
+      "max_fold_fraction": 0.0,
+      "mean_network_seconds": 0.004145899407255153
+    }
+  },
+  "limitations": [
+    "training scenes were previously used for diagnosis; kicker validation was newly added and frozen",
+    "the terrace locked test was not evaluated because validation met the early-stop condition",
+    "network-only CPU timing is not a deployment GPU benchmark"
+  ]
+}

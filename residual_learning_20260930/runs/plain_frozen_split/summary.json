@@ -1,0 +1,51 @@
+{
+  "status": "complete",
+  "development_only": true,
+  "device": "cpu",
+  "parameters": 166402,
+  "train_seconds": 60.67371031700168,
+  "epochs": 120,
+  "train_pairs": 15,
+  "weights": {
+    "protection": 1.0,
+    "anchor": 0.002,
+    "smooth": 0.02,
+    "triangle": 10.0,
+    "tps": 100.0,
+    "overlap": 10.0
+  },
+  "splits": {
+    "train": {
+      "pairs": 15,
+      "held_n": 32017,
+      "A_held_mean": 36.70936653186384,
+      "B_LBFGS_pairs": 15,
+      "B_LBFGS_held_mean": 23.36698189224291,
+      "C_plain_held_mean": 27.92517328528546,
+      "B_improved_pairs": 13,
+      "C_improved_pairs": 14,
+      "mean_overlap_retention": 0.9889062086741129,
+      "max_fold_fraction": 0.0,
+      "mean_network_seconds": 0.004680136583435039
+    },
+    "validation": {
+      "pairs": 5,
+      "held_n": 7826,
+      "A_held_mean": 42.286656062133225,
+      "B_LBFGS_pairs": 0,
+      "B_LBFGS_held_mean": null,
+      "C_plain_held_mean": 41.605571634105914,
+      "B_improved_pairs": 0,
+      "C_improved_pairs": 2,
+      "mean_overlap_retention": 0.9969800591468811,
+      "max_fold_fraction": 0.0,
+      "mean_network_seconds": 0.004674151167273521
+    }
+  },
+  "limitations": [
+    "training scenes were previously used for diagnosis; kicker validation was newly added and frozen",
+    "the terrace locked test was not evaluated because validation met the early-stop condition",
+    "network-only CPU timing is not a deployment GPU benchmark",
+    "C-LBFGS is unavailable on the new scenes until fixed RoMa candidates can be generated on a working GPU"
+  ]
+}

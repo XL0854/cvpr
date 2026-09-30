@@ -1,0 +1,6 @@
+{
+  "checkpoint_reproduction_non_timing_exact": true,
+  "samples": 25,
+  "all_train_held_disjoint": true,
+  "all_inputs_11_channels": true
+}

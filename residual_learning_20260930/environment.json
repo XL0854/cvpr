@@ -1,0 +1,8 @@
+{
+  "python": "3.9.25 (main, Nov  3 2025, 22:33:05) \n[GCC 11.2.0]",
+  "torch": "2.8.0+cu128",
+  "cuda_available": false,
+  "cuda_device_count": 0,
+  "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+  "note": "GPU driver communication failed during this run; CPU functional/training timings are not GPU deployment timings."
+}

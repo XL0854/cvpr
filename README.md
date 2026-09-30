@@ -25,6 +25,12 @@ C-LBFGS 在 13/15 对上改善 A，并获得约 91% 的 A 到 D 降幅。D 没�
 - 少量局部大错位区域缺少被常规可靠性规则接纳的正确空间支撑；
 - 几何误差下降可能伴随已对齐区域退化或有效覆盖损失。
 
+随后完成了普通 RGB 残余网络的最小训练实验。该网络冻结 RopStitch，只预测
+目标侧 13×13 小幅残余，并使用局部 RGB 相关性、几何监督、已对齐区域保护、
+结构和重叠损失。新场景 `kicker` 验证仅有 2/5 对改善，点数加权误差
+42.29→41.61 px，且部分已对齐区域明显退化。因此普通版本提前停止，未实现
+内容引导传播模块，也未打开 `terrace` 锁定测试调参。
+
 完整进度见 [PROGRESS.md](PROGRESS.md)，当前研究边界见 [CURRENT_RESEARCH_POSITION.md](diagnostics_parallax_20260929/CURRENT_RESEARCH_POSITION.md)，最终复核见 [REPORT.md](diagnostics_parallax_20260929/runs/unified_strong_baseline_review/REPORT.md)。
 
 ![15-pair geometry comparison](diagnostics_parallax_20260929/runs/unified_strong_baseline_review/all_pair_geometry.png)
@@ -35,6 +41,7 @@ C-LBFGS 在 13/15 对上改善 A，并获得约 91% 的 A 到 D 降幅。D 没�
 - `wCoefNet/`：原始系数网络及已归档 alpha 相关代码。
 - `diagnostics_geometry_20260915/`：早期几何和效率诊断脚本；该方向不作为当前主线。
 - `diagnostics_parallax_20260929/`：ETH3D 真值、候选对应、残差网格与强基线诊断。
+- `residual_learning_20260930/`：普通 RGB 残余网络、冻结划分、训练权重和失败结论。
 - `docs/ROPSTITCH_UPSTREAM_README.md`：原始项目说明。
 
 ## 本仓库不包含
@@ -53,5 +60,6 @@ C-LBFGS 在 13/15 对上改善 A，并获得约 91% 的 A 到 D 降幅。D 没�
 - 不恢复自适应 alpha 或空间投影面研究；
 - 不训练对应可靠性预测器；
 - 不扩大数据或自动追加实验。
+- 普通残余网络未通过跨场景门槛，不启动内容引导传播消融。
 
-下一步只应依据现有证据决定：对“稀疏空间支撑下的结构保持局部形变优化”做聚焦文献查新，或更换研究切口。
+下一步只应依据现有证据决定是否增加真正多场景训练规模；若不增加，应更换研究切口。

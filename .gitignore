@@ -8,6 +8,8 @@ data/
 *.pt
 *.ckpt
 *.safetensors
+!residual_learning_20260930/runs/plain_frozen_split/plain_residual_model.pth
+!residual_learning_20260930/runs/plain_overfit_reproduced/plain_residual_model.pth
 
 # Python/cache/runtime output
 __pycache__/
@@ -33,3 +35,4 @@ diagnostics_parallax_20260929/third_party/
 **/candidates.npz
 **/initial_geometry.npz
 **/*_mesh.npy
+residual_learning_20260930/cache/

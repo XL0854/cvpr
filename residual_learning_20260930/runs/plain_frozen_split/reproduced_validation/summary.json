@@ -1,0 +1,15 @@
+{
+  "validation": {
+    "pairs": 5,
+    "held_n": 7826,
+    "A_held_mean": 42.286656062133225,
+    "B_LBFGS_pairs": 0,
+    "B_LBFGS_held_mean": null,
+    "C_plain_held_mean": 41.605571634105914,
+    "B_improved_pairs": 0,
+    "C_improved_pairs": 2,
+    "mean_overlap_retention": 0.9969800591468811,
+    "max_fold_fraction": 0.0,
+    "mean_network_seconds": 0.011943194409832358
+  }
+}

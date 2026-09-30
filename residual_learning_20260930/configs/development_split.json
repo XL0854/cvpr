@@ -1,0 +1,44 @@
+{
+  "purpose": "Implementation and cross-scene development check only; none of these scenes is an independent final test.",
+  "splits": {
+    "train": [
+      {
+        "scene": "courtyard",
+        "root": "data/ETH3D/courtyard",
+        "pairs": [
+          ["DSC_0286.JPG", "DSC_0287.JPG"],
+          ["DSC_0312.JPG", "DSC_0313.JPG"],
+          ["DSC_0315.JPG", "DSC_0317.JPG"],
+          ["DSC_0317.JPG", "DSC_0318.JPG"],
+          ["DSC_0309.JPG", "DSC_0311.JPG"]
+        ]
+      }
+    ],
+    "validation": [
+      {
+        "scene": "delivery_area",
+        "root": "data/ETH3D/delivery_area",
+        "pairs": [
+          ["DSC_0675.JPG", "DSC_0676.JPG"],
+          ["DSC_0685.JPG", "DSC_0686.JPG"],
+          ["DSC_0695.JPG", "DSC_0696.JPG"],
+          ["DSC_0704.JPG", "DSC_0705.JPG"],
+          ["DSC_0717.JPG", "DSC_0718.JPG"]
+        ]
+      }
+    ],
+    "development_test": [
+      {
+        "scene": "electro",
+        "root": "data/ETH3D/electro",
+        "pairs": [
+          ["DSC_9257.JPG", "DSC_9258.JPG"],
+          ["DSC_9264.JPG", "DSC_9265.JPG"],
+          ["DSC_9271.JPG", "DSC_9272.JPG"],
+          ["DSC_9293.JPG", "DSC_9294.JPG"],
+          ["DSC_9302.JPG", "DSC_9303.JPG"]
+        ]
+      }
+    ]
+  }
+}

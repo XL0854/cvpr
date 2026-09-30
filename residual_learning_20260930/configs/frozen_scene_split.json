@@ -1,0 +1,32 @@
+{
+  "purpose": "Existing diagnosed scenes are training-only; kicker is validation; terrace is locked test and must not guide model selection.",
+  "frozen_before_new_scene_network_evaluation": true,
+  "splits": {
+    "train": [
+      {
+        "scene": "courtyard", "root": "data/ETH3D/courtyard",
+        "pairs": [["DSC_0286.JPG", "DSC_0287.JPG"], ["DSC_0312.JPG", "DSC_0313.JPG"], ["DSC_0315.JPG", "DSC_0317.JPG"], ["DSC_0317.JPG", "DSC_0318.JPG"], ["DSC_0309.JPG", "DSC_0311.JPG"]]
+      },
+      {
+        "scene": "delivery_area", "root": "data/ETH3D/delivery_area",
+        "pairs": [["DSC_0675.JPG", "DSC_0676.JPG"], ["DSC_0685.JPG", "DSC_0686.JPG"], ["DSC_0695.JPG", "DSC_0696.JPG"], ["DSC_0704.JPG", "DSC_0705.JPG"], ["DSC_0717.JPG", "DSC_0718.JPG"]]
+      },
+      {
+        "scene": "electro", "root": "data/ETH3D/electro",
+        "pairs": [["DSC_9257.JPG", "DSC_9258.JPG"], ["DSC_9264.JPG", "DSC_9265.JPG"], ["DSC_9271.JPG", "DSC_9272.JPG"], ["DSC_9293.JPG", "DSC_9294.JPG"], ["DSC_9302.JPG", "DSC_9303.JPG"]]
+      }
+    ],
+    "validation": [
+      {
+        "scene": "kicker", "root": "data/ETH3D/kicker",
+        "pairs": [["DSC_6487.JPG", "DSC_6489.JPG"], ["DSC_6494.JPG", "DSC_6495.JPG"], ["DSC_6502.JPG", "DSC_6503.JPG"], ["DSC_6511.JPG", "DSC_6512.JPG"], ["DSC_6519.JPG", "DSC_6520.JPG"]]
+      }
+    ],
+    "locked_test": [
+      {
+        "scene": "terrace", "root": "data/ETH3D/terrace",
+        "pairs": [["DSC_0259.JPG", "DSC_0260.JPG"], ["DSC_0264.JPG", "DSC_0266.JPG"], ["DSC_0270.JPG", "DSC_0271.JPG"], ["DSC_0276.JPG", "DSC_0277.JPG"], ["DSC_0284.JPG", "DSC_0285.JPG"]]
+      }
+    ]
+  }
+}
