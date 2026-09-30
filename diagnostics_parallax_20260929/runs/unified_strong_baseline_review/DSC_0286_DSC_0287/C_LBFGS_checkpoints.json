@@ -1,0 +1,74 @@
+[
+  {
+    "outer": 1,
+    "cumulative_seconds": 0.22599938104394823,
+    "closure_evals": 24,
+    "local_evals": 24,
+    "accepted_feasible": true,
+    "parameter_change_max": 13.210993766784668,
+    "loss": 0.9684909582138062,
+    "grad_norm": 0.00028795553953386843,
+    "terms": {
+      "geometry": 0.7191487550735474,
+      "raw_euclidean_mean": 2.106257200241089,
+      "anchor": 7.704213619232178,
+      "smooth": 11.696688652038574,
+      "triangle_barrier": 0.0,
+      "tps_barrier": 0.0
+    }
+  },
+  {
+    "outer": 2,
+    "cumulative_seconds": 0.47649056802038103,
+    "closure_evals": 54,
+    "local_evals": 30,
+    "accepted_feasible": true,
+    "parameter_change_max": 0.6946134567260742,
+    "loss": 0.9683868885040283,
+    "grad_norm": 2.062094245047774e-05,
+    "terms": {
+      "geometry": 0.7197245955467224,
+      "raw_euclidean_mean": 2.106848955154419,
+      "anchor": 7.728085041046143,
+      "smooth": 11.660306930541992,
+      "triangle_barrier": 0.0,
+      "tps_barrier": 0.0
+    }
+  },
+  {
+    "outer": 3,
+    "cumulative_seconds": 0.5183030279586092,
+    "closure_evals": 59,
+    "local_evals": 5,
+    "accepted_feasible": true,
+    "parameter_change_max": 0.0,
+    "loss": 0.9683868885040283,
+    "grad_norm": 2.062094245047774e-05,
+    "terms": {
+      "geometry": 0.7197245955467224,
+      "raw_euclidean_mean": 2.106848955154419,
+      "anchor": 7.728085041046143,
+      "smooth": 11.660306930541992,
+      "triangle_barrier": 0.0,
+      "tps_barrier": 0.0
+    }
+  },
+  {
+    "outer": 4,
+    "cumulative_seconds": 0.5660570720210671,
+    "closure_evals": 64,
+    "local_evals": 5,
+    "accepted_feasible": true,
+    "parameter_change_max": 0.0,
+    "loss": 0.9683868885040283,
+    "grad_norm": 2.062094245047774e-05,
+    "terms": {
+      "geometry": 0.7197245955467224,
+      "raw_euclidean_mean": 2.106848955154419,
+      "anchor": 7.728085041046143,
+      "smooth": 11.660306930541992,
+      "triangle_barrier": 0.0,
+      "tps_barrier": 0.0
+    }
+  }
+]

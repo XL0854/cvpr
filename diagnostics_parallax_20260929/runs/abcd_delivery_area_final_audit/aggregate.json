@@ -1,0 +1,117 @@
+{
+  "status": "valid_no_fold_small_batch_complete",
+  "pairs": 5,
+  "aggregate": {
+    "A_baseline": {
+      "all_held_canvas": {
+        "n": 208,
+        "mean": 18.025397908229095
+      },
+      "initially_difficult_canvas": {
+        "n": 82,
+        "mean": 40.692113725150506
+      },
+      "initially_aligned_canvas": {
+        "n": 75,
+        "mean": 1.569610563913981
+      },
+      "max_sampled_fold_fraction": 0.0,
+      "max_triangle_area_change": 0.0,
+      "min_overlap_retention": 1.0
+    },
+    "B_residual": {
+      "all_held_canvas": {
+        "n": 208,
+        "mean": 17.140728110304245
+      },
+      "initially_difficult_canvas": {
+        "n": 82,
+        "mean": 39.91587870295455
+      },
+      "initially_aligned_canvas": {
+        "n": 75,
+        "mean": 1.0096700604756672
+      },
+      "max_sampled_fold_fraction": 0.0,
+      "max_triangle_area_change": 0.010236620903015137,
+      "min_overlap_retention": 0.9943564754947718
+    },
+    "C_reliability": {
+      "all_held_canvas": {
+        "n": 208,
+        "mean": 13.786691833000917
+      },
+      "initially_difficult_canvas": {
+        "n": 82,
+        "mean": 31.313458884634624
+      },
+      "initially_aligned_canvas": {
+        "n": 75,
+        "mean": 1.1040446122487386
+      },
+      "max_sampled_fold_fraction": 0.0,
+      "max_triangle_area_change": 0.050530314445495605,
+      "min_overlap_retention": 0.9629818383988139
+    },
+    "D_oracle_select": {
+      "all_held_canvas": {
+        "n": 208,
+        "mean": 12.682339498629936
+      },
+      "initially_difficult_canvas": {
+        "n": 82,
+        "mean": 28.514976920151128
+      },
+      "initially_aligned_canvas": {
+        "n": 75,
+        "mean": 1.1759735417366028
+      },
+      "max_sampled_fold_fraction": 0.0,
+      "max_triangle_area_change": 0.05239212512969971,
+      "min_overlap_retention": 0.9804259453378672
+    },
+    "C_spatial_count_control": {
+      "all_held_canvas": {
+        "n": 208,
+        "mean": 13.744526448158117
+      },
+      "initially_difficult_canvas": {
+        "n": 82,
+        "mean": 30.759160451772736
+      },
+      "initially_aligned_canvas": {
+        "n": 75,
+        "mean": 1.5125702699025472
+      },
+      "max_sampled_fold_fraction": 0.0,
+      "max_triangle_area_change": 0.05392754077911377,
+      "min_overlap_retention": 0.9820995350090976
+    },
+    "D_spatial_count_control": {
+      "all_held_canvas": {
+        "n": 208,
+        "mean": 13.492886126041412
+      },
+      "initially_difficult_canvas": {
+        "n": 82,
+        "mean": 30.290972872478207
+      },
+      "initially_aligned_canvas": {
+        "n": 75,
+        "mean": 1.163970229625702
+      },
+      "max_sampled_fold_fraction": 0.0,
+      "max_triangle_area_change": 0.05239212512969971,
+      "min_overlap_retention": 0.9804003783908164
+    }
+  },
+  "D_vs_A_all_held_relative_change": -0.29641833355367453,
+  "D_vs_C_all_held_relative_change": -0.08010277938667754,
+  "D_vs_C_pair_wins": 3,
+  "B_insufficient_pair_count": 0,
+  "interpretation": [
+    "Residual filtering fails on the hard pairs because it removes nearly all candidates.",
+    "Oracle selection improves over conventional reliability on three of five pairs, but the pooled gap is modest.",
+    "This is one development scene and cannot establish generalization or a paper-level contribution."
+  ]
+}

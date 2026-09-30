@@ -1,0 +1,109 @@
+{
+  "status": "fixed_filter_audit_complete",
+  "pairs": 5,
+  "far_denominator_definition": "truth-evaluable incorrect candidates (e_native>6 px); uncertain 3<e<=6 and unavailable excluded",
+  "precision_denominator_definition": "kept classified candidates: correct plus incorrect; uncertain/unavailable excluded",
+  "counts": {
+    "correct": 1087,
+    "incorrect": 141,
+    "uncertain": 111,
+    "unable": 19141,
+    "correct_large_r_ge_10": 555,
+    "correct_small_r_lt_10": 532
+  },
+  "filters_at_matched_incorrect_acceptance": {
+    "min_bidirectional_confidence": {
+      "0.01": {
+        "threshold": 0.966850221157074,
+        "incorrect_acceptance": 0.0070921985815602835,
+        "all_correct_retention": 0.07543698252069918,
+        "large_correct_retention": 0.01981981981981982,
+        "small_correct_retention": 0.13345864661654136
+      },
+      "0.05": {
+        "threshold": 0.8405367136001587,
+        "incorrect_acceptance": 0.04964539007092199,
+        "all_correct_retention": 0.3330266789328427,
+        "large_correct_retention": 0.25765765765765763,
+        "small_correct_retention": 0.4116541353383459
+      },
+      "0.1": {
+        "threshold": 0.3698593080043793,
+        "incorrect_acceptance": 0.09929078014184398,
+        "all_correct_retention": 0.7782888684452622,
+        "large_correct_retention": 0.7891891891891892,
+        "small_correct_retention": 0.7669172932330827
+      }
+    },
+    "cycle_error": {
+      "0.01": {
+        "threshold": 0.00948625523597002,
+        "incorrect_acceptance": 0.0070921985815602835,
+        "all_correct_retention": 0.029438822447102116,
+        "large_correct_retention": 0.032432432432432434,
+        "small_correct_retention": 0.02631578947368421
+      },
+      "0.05": {
+        "threshold": 0.13536134362220764,
+        "incorrect_acceptance": 0.04964539007092199,
+        "all_correct_retention": 0.8528058877644894,
+        "large_correct_retention": 0.8792792792792793,
+        "small_correct_retention": 0.825187969924812
+      },
+      "0.1": {
+        "threshold": 0.20570509135723114,
+        "incorrect_acceptance": 0.09929078014184398,
+        "all_correct_retention": 0.9264029438822448,
+        "large_correct_retention": 0.954954954954955,
+        "small_correct_retention": 0.8966165413533834
+      }
+    },
+    "current_shape_residual": {
+      "0.01": {
+        "threshold": 1.8366055488586426,
+        "incorrect_acceptance": 0.0070921985815602835,
+        "all_correct_retention": 0.05519779208831647,
+        "large_correct_retention": 0.0,
+        "small_correct_retention": 0.11278195488721804
+      },
+      "0.05": {
+        "threshold": 2.266214609146118,
+        "incorrect_acceptance": 0.04964539007092199,
+        "all_correct_retention": 0.07911683532658693,
+        "large_correct_retention": 0.0,
+        "small_correct_retention": 0.16165413533834586
+      },
+      "0.1": {
+        "threshold": 2.6801464557647705,
+        "incorrect_acceptance": 0.09929078014184398,
+        "all_correct_retention": 0.10027598896044158,
+        "large_correct_retention": 0.0,
+        "small_correct_retention": 0.20488721804511278
+      }
+    }
+  },
+  "frozen_C_rule": {
+    "rule": "forward confidence>=0.5, reverse confidence>=0.5, cycle<=2 px",
+    "kept_correct": 772,
+    "kept_incorrect": 11,
+    "kept_classified": 783,
+    "post_filter_precision": 0.9859514687100894,
+    "incorrect_acceptance_numerator": 11,
+    "incorrect_acceptance_denominator": 141,
+    "incorrect_acceptance": 0.07801418439716312,
+    "correct_large_kept": 390,
+    "correct_large_total": 555,
+    "correct_large_retention": 0.7027027027027027,
+    "correct_small_kept": 382,
+    "correct_small_total": 532,
+    "correct_small_retention": 0.7180451127819549,
+    "large_correct_cells_before": 48,
+    "large_correct_cells_after": 46,
+    "all_kept_source_cells": 58
+  },
+  "per_pair_csv": "filter_audit_per_pair.csv",
+  "limits": [
+    "small preselected scene batches",
+    "pooled counts can be dominated by pairs with more evaluable candidates"
+  ]
+}

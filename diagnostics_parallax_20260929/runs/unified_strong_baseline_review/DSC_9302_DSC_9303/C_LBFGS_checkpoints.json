@@ -1,0 +1,146 @@
+[
+  {
+    "outer": 1,
+    "cumulative_seconds": 0.2509128919336945,
+    "closure_evals": 25,
+    "local_evals": 25,
+    "accepted_feasible": true,
+    "parameter_change_max": 44.15402603149414,
+    "loss": 4.701077938079834,
+    "grad_norm": 0.039933834224939346,
+    "terms": {
+      "geometry": 2.703411340713501,
+      "raw_euclidean_mean": 5.67194128036499,
+      "anchor": 111.51786804199219,
+      "smooth": 88.5180435180664,
+      "triangle_barrier": 0.00013990135630592704,
+      "tps_barrier": 2.8710173864965327e-05
+    }
+  },
+  {
+    "outer": 2,
+    "cumulative_seconds": 0.4703940619947389,
+    "closure_evals": 46,
+    "local_evals": 21,
+    "accepted_feasible": true,
+    "parameter_change_max": 30.13079071044922,
+    "loss": 2.887624740600586,
+    "grad_norm": 0.011153674684464931,
+    "terms": {
+      "geometry": 0.887529194355011,
+      "raw_euclidean_mean": 2.1464266777038574,
+      "anchor": 210.61947631835938,
+      "smooth": 78.87020111083984,
+      "triangle_barrier": 0.0,
+      "tps_barrier": 1.4526878658216447e-05
+    }
+  },
+  {
+    "outer": 3,
+    "cumulative_seconds": 0.6811082620406523,
+    "closure_evals": 67,
+    "local_evals": 21,
+    "accepted_feasible": true,
+    "parameter_change_max": 30.539535522460938,
+    "loss": 2.630258321762085,
+    "grad_norm": 0.004312742967158556,
+    "terms": {
+      "geometry": 0.726112425327301,
+      "raw_euclidean_mean": 1.873103380203247,
+      "anchor": 318.55853271484375,
+      "smooth": 63.3514404296875,
+      "triangle_barrier": 0.0,
+      "tps_barrier": 0.0
+    }
+  },
+  {
+    "outer": 4,
+    "cumulative_seconds": 0.913556513027288,
+    "closure_evals": 90,
+    "local_evals": 23,
+    "accepted_feasible": true,
+    "parameter_change_max": 18.89551544189453,
+    "loss": 2.484428882598877,
+    "grad_norm": 0.006198333576321602,
+    "terms": {
+      "geometry": 0.38584715127944946,
+      "raw_euclidean_mean": 1.2359163761138916,
+      "anchor": 428.39141845703125,
+      "smooth": 62.08995056152344,
+      "triangle_barrier": 0.0,
+      "tps_barrier": 0.0
+    }
+  },
+  {
+    "outer": 5,
+    "cumulative_seconds": 1.1350749810226262,
+    "closure_evals": 112,
+    "local_evals": 22,
+    "accepted_feasible": true,
+    "parameter_change_max": 7.227321624755859,
+    "loss": 2.4615120887756348,
+    "grad_norm": 0.00034298852551728487,
+    "terms": {
+      "geometry": 0.36708274483680725,
+      "raw_euclidean_mean": 1.1841691732406616,
+      "anchor": 434.0290222167969,
+      "smooth": 61.31856155395508,
+      "triangle_barrier": 0.0,
+      "tps_barrier": 0.0
+    }
+  },
+  {
+    "outer": 6,
+    "cumulative_seconds": 1.4430803339928389,
+    "closure_evals": 143,
+    "local_evals": 31,
+    "accepted_feasible": true,
+    "parameter_change_max": 0.6380462646484375,
+    "loss": 2.461329460144043,
+    "grad_norm": 9.237410267814994e-05,
+    "terms": {
+      "geometry": 0.36800962686538696,
+      "raw_euclidean_mean": 1.1861059665679932,
+      "anchor": 434.0320739746094,
+      "smooth": 61.262779235839844,
+      "triangle_barrier": 0.0,
+      "tps_barrier": 0.0
+    }
+  },
+  {
+    "outer": 7,
+    "cumulative_seconds": 1.521513298037462,
+    "closure_evals": 151,
+    "local_evals": 8,
+    "accepted_feasible": true,
+    "parameter_change_max": 0.0,
+    "loss": 2.461329460144043,
+    "grad_norm": 9.237410267814994e-05,
+    "terms": {
+      "geometry": 0.36800962686538696,
+      "raw_euclidean_mean": 1.1861059665679932,
+      "anchor": 434.0320739746094,
+      "smooth": 61.262779235839844,
+      "triangle_barrier": 0.0,
+      "tps_barrier": 0.0
+    }
+  },
+  {
+    "outer": 8,
+    "cumulative_seconds": 1.6006668619811535,
+    "closure_evals": 159,
+    "local_evals": 8,
+    "accepted_feasible": true,
+    "parameter_change_max": 0.0,
+    "loss": 2.461329460144043,
+    "grad_norm": 9.237410267814994e-05,
+    "terms": {
+      "geometry": 0.36800962686538696,
+      "raw_euclidean_mean": 1.1861059665679932,
+      "anchor": 434.0320739746094,
+      "smooth": 61.262779235839844,
+      "triangle_barrier": 0.0,
+      "tps_barrier": 0.0
+    }
+  }
+]

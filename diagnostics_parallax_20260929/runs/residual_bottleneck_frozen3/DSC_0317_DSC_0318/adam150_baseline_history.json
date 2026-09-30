@@ -1,0 +1,79 @@
+[
+  {
+    "step": 0,
+    "loss": 68.3825454711914,
+    "grad_norm": 0.13683128356933594,
+    "geometry": 68.3825454711914,
+    "raw_euclidean_mean": 123.94721221923828,
+    "anchor": 0.0,
+    "smooth": 0.0,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 0.0
+  },
+  {
+    "step": 24,
+    "loss": 63.38503646850586,
+    "grad_norm": 0.10739138722419739,
+    "geometry": 63.09364700317383,
+    "raw_euclidean_mean": 117.81878662109375,
+    "anchor": 9.282736778259277,
+    "smooth": 13.6412353515625,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 0.0
+  },
+  {
+    "step": 49,
+    "loss": 59.685359954833984,
+    "grad_norm": 0.08582980930805206,
+    "geometry": 59.101104736328125,
+    "raw_euclidean_mean": 112.744384765625,
+    "anchor": 34.84352111816406,
+    "smooth": 25.72840118408203,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 0.0
+  },
+  {
+    "step": 74,
+    "loss": 56.64835739135742,
+    "grad_norm": 0.07851271331310272,
+    "geometry": 55.83962631225586,
+    "raw_euclidean_mean": 107.99278259277344,
+    "anchor": 79.70651245117188,
+    "smooth": 32.46472930908203,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 2.2427937551583454e-07
+  },
+  {
+    "step": 99,
+    "loss": 53.84769821166992,
+    "grad_norm": 0.07286567986011505,
+    "geometry": 52.749656677246094,
+    "raw_euclidean_mean": 103.15922546386719,
+    "anchor": 146.7266387939453,
+    "smooth": 39.7635383605957,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 9.31927133933641e-05
+  },
+  {
+    "step": 124,
+    "loss": 51.209129333496094,
+    "grad_norm": 0.06851138919591904,
+    "geometry": 49.722267150878906,
+    "raw_euclidean_mean": 98.09688568115234,
+    "anchor": 241.00584411621094,
+    "smooth": 49.205726623535156,
+    "triangle_barrier": 1.7313455828116275e-05,
+    "tps_barrier": 0.0002056336816167459
+  },
+  {
+    "step": 149,
+    "loss": 48.51711654663086,
+    "grad_norm": 0.08193948864936829,
+    "geometry": 46.47193145751953,
+    "raw_euclidean_mean": 92.22891235351562,
+    "anchor": 362.7427978515625,
+    "smooth": 59.816497802734375,
+    "triangle_barrier": 0.0001406155206495896,
+    "tps_barrier": 0.001219636294990778
+  }
+]

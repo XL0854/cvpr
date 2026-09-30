@@ -1,0 +1,81 @@
+{
+  "id": "DSC_0286_DSC_0287",
+  "candidates": 4096,
+  "evaluable": 181,
+  "correct": 166,
+  "incorrect": 8,
+  "correct_r_ge_10": 23,
+  "correct_r_ge_10_fraction": 0.13855421686746988,
+  "correct_r_median": 2.494056224822998,
+  "filters": {
+    "min_bidirectional_confidence": {
+      "0.01": {
+        "threshold": 0.8725480437278748,
+        "incorrect_acceptance": 0.125,
+        "all_correct_retention": 0.5783132530120482,
+        "large_correct_retention": 0.17391304347826086,
+        "small_correct_retention": 0.6433566433566433
+      },
+      "0.05": {
+        "threshold": 0.8725480437278748,
+        "incorrect_acceptance": 0.125,
+        "all_correct_retention": 0.5783132530120482,
+        "large_correct_retention": 0.17391304347826086,
+        "small_correct_retention": 0.6433566433566433
+      },
+      "0.1": {
+        "threshold": 0.8725480437278748,
+        "incorrect_acceptance": 0.125,
+        "all_correct_retention": 0.5783132530120482,
+        "large_correct_retention": 0.17391304347826086,
+        "small_correct_retention": 0.6433566433566433
+      }
+    },
+    "cycle_error": {
+      "0.01": {
+        "threshold": 0.09814116358757019,
+        "incorrect_acceptance": 0.125,
+        "all_correct_retention": 0.8734939759036144,
+        "large_correct_retention": 0.6521739130434783,
+        "small_correct_retention": 0.9090909090909091
+      },
+      "0.05": {
+        "threshold": 0.09814116358757019,
+        "incorrect_acceptance": 0.125,
+        "all_correct_retention": 0.8734939759036144,
+        "large_correct_retention": 0.6521739130434783,
+        "small_correct_retention": 0.9090909090909091
+      },
+      "0.1": {
+        "threshold": 0.09814116358757019,
+        "incorrect_acceptance": 0.125,
+        "all_correct_retention": 0.8734939759036144,
+        "large_correct_retention": 0.6521739130434783,
+        "small_correct_retention": 0.9090909090909091
+      }
+    },
+    "current_shape_residual": {
+      "0.01": {
+        "threshold": 1.1328346729278564,
+        "incorrect_acceptance": 0.125,
+        "all_correct_retention": 0.25903614457831325,
+        "large_correct_retention": 0.0,
+        "small_correct_retention": 0.3006993006993007
+      },
+      "0.05": {
+        "threshold": 1.1328346729278564,
+        "incorrect_acceptance": 0.125,
+        "all_correct_retention": 0.25903614457831325,
+        "large_correct_retention": 0.0,
+        "small_correct_retention": 0.3006993006993007
+      },
+      "0.1": {
+        "threshold": 1.1328346729278564,
+        "incorrect_acceptance": 0.125,
+        "all_correct_retention": 0.25903614457831325,
+        "large_correct_retention": 0.0,
+        "small_correct_retention": 0.3006993006993007
+      }
+    }
+  }
+}

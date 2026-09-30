@@ -1,0 +1,83 @@
+{
+  "id": "DSC_9257_DSC_9258",
+  "candidates": 4096,
+  "evaluable": 491,
+  "correct": 401,
+  "uncertain": 33,
+  "unable": 3605,
+  "incorrect": 57,
+  "correct_r_ge_10": 136,
+  "correct_r_ge_10_fraction": 0.33915211970074816,
+  "correct_r_median": 7.863672256469727,
+  "filters": {
+    "min_bidirectional_confidence": {
+      "0.01": {
+        "threshold": 0.905685305595398,
+        "incorrect_acceptance": 0.017543859649122806,
+        "all_correct_retention": 0.20448877805486285,
+        "large_correct_retention": 0.022058823529411766,
+        "small_correct_retention": 0.2981132075471698
+      },
+      "0.05": {
+        "threshold": 0.8539344072341919,
+        "incorrect_acceptance": 0.03508771929824561,
+        "all_correct_retention": 0.26932668329177056,
+        "large_correct_retention": 0.051470588235294115,
+        "small_correct_retention": 0.38113207547169814
+      },
+      "0.1": {
+        "threshold": 0.7589721083641052,
+        "incorrect_acceptance": 0.08771929824561403,
+        "all_correct_retention": 0.3915211970074813,
+        "large_correct_retention": 0.19117647058823528,
+        "small_correct_retention": 0.49433962264150944
+      }
+    },
+    "cycle_error": {
+      "0.01": {
+        "threshold": 0.00948625523597002,
+        "incorrect_acceptance": 0.017543859649122806,
+        "all_correct_retention": 0.02493765586034913,
+        "large_correct_retention": 0.014705882352941176,
+        "small_correct_retention": 0.03018867924528302
+      },
+      "0.05": {
+        "threshold": 0.047564178705215454,
+        "incorrect_acceptance": 0.03508771929824561,
+        "all_correct_retention": 0.3092269326683292,
+        "large_correct_retention": 0.2426470588235294,
+        "small_correct_retention": 0.3433962264150943
+      },
+      "0.1": {
+        "threshold": 0.0972396582365036,
+        "incorrect_acceptance": 0.08771929824561403,
+        "all_correct_retention": 0.6658354114713217,
+        "large_correct_retention": 0.6544117647058824,
+        "small_correct_retention": 0.6716981132075471
+      }
+    },
+    "current_shape_residual": {
+      "0.01": {
+        "threshold": 1.8854036331176758,
+        "incorrect_acceptance": 0.017543859649122806,
+        "all_correct_retention": 0.012468827930174564,
+        "large_correct_retention": 0.0,
+        "small_correct_retention": 0.018867924528301886
+      },
+      "0.05": {
+        "threshold": 1.9446086883544922,
+        "incorrect_acceptance": 0.03508771929824561,
+        "all_correct_retention": 0.012468827930174564,
+        "large_correct_retention": 0.0,
+        "small_correct_retention": 0.018867924528301886
+      },
+      "0.1": {
+        "threshold": 2.266214609146118,
+        "incorrect_acceptance": 0.08771929824561403,
+        "all_correct_retention": 0.0399002493765586,
+        "large_correct_retention": 0.0,
+        "small_correct_retention": 0.06037735849056604
+      }
+    }
+  }
+}

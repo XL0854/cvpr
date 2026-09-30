@@ -1,0 +1,355 @@
+{
+  "scene": "courtyard",
+  "pair": "DSC_0309_DSC_0311",
+  "development_evidence": true,
+  "groups": {
+    "A": {
+      "name": "A",
+      "train": {
+        "n": 0,
+        "mean": null,
+        "median": null
+      },
+      "train_forward": {
+        "n": 0,
+        "mean": null,
+        "median": null
+      },
+      "held": {
+        "n": 128,
+        "mean": 120.6053695678711,
+        "median": 111.46348571777344
+      },
+      "aligned": {
+        "n": 0,
+        "mean": null,
+        "median": null
+      },
+      "difficult": {
+        "n": 123,
+        "mean": 125.17425537109375,
+        "median": 114.65652465820312
+      },
+      "train_inversion_failure": null,
+      "held_inversion_failure": 0.0,
+      "max_displacement_px": 0.0,
+      "max_component_displacement_px": 0.0,
+      "distortion": {
+        "triangle_fold_fraction": 0.0,
+        "sampled_fold_fraction": 0.0,
+        "det_p05": 1.2874637842178345,
+        "det_min": 1.1915844678878784,
+        "anisotropy_p95": 1.3793537616729736,
+        "triangle_area_ratio": 1.0,
+        "overlap_pixels": 222463,
+        "overlap_retention": 1.0
+      },
+      "fit": {
+        "reused": true,
+        "optimizer_seconds": 0.0,
+        "objective_evals": 0,
+        "gradient_evals": 0,
+        "termination_reason": "not_optimized"
+      }
+    },
+    "C_Adam": {
+      "name": "C_Adam",
+      "train": {
+        "n": 987,
+        "mean": 72.28710174560547,
+        "median": 67.73697662353516
+      },
+      "train_forward": {
+        "n": 987,
+        "mean": 66.51476287841797,
+        "median": 66.23194122314453
+      },
+      "held": {
+        "n": 128,
+        "mean": 105.62737274169922,
+        "median": 105.70404052734375
+      },
+      "aligned": {
+        "n": 0,
+        "mean": null,
+        "median": null
+      },
+      "difficult": {
+        "n": 123,
+        "mean": 109.4917221069336,
+        "median": 123.7508544921875
+      },
+      "train_inversion_failure": 0.0,
+      "held_inversion_failure": 0.0,
+      "max_displacement_px": 35.28767395019531,
+      "max_component_displacement_px": 29.448211669921875,
+      "distortion": {
+        "triangle_fold_fraction": 0.0,
+        "sampled_fold_fraction": 0.0,
+        "det_p05": 0.6738754510879517,
+        "det_min": 0.008762083947658539,
+        "anisotropy_p95": 2.9990458488464355,
+        "triangle_area_ratio": 1.0854835510253906,
+        "overlap_pixels": 231890,
+        "overlap_retention": 1.0423755860525121
+      },
+      "fit": {
+        "reused": true,
+        "optimizer_seconds": 1.2786345729837194,
+        "objective_evals": 150,
+        "gradient_evals": 150,
+        "termination_reason": "fixed_150_steps"
+      },
+      "postprocess_cpu_seconds": 0.057562002912163734
+    },
+    "C_LBFGS": {
+      "name": "C_LBFGS",
+      "train": {
+        "n": 987,
+        "mean": 96.55101013183594,
+        "median": 94.51842498779297
+      },
+      "train_forward": {
+        "n": 987,
+        "mean": 95.36505126953125,
+        "median": 92.16984558105469
+      },
+      "held": {
+        "n": 128,
+        "mean": 120.6053695678711,
+        "median": 111.46348571777344
+      },
+      "aligned": {
+        "n": 0,
+        "mean": null,
+        "median": null
+      },
+      "difficult": {
+        "n": 123,
+        "mean": 125.17425537109375,
+        "median": 114.65652465820312
+      },
+      "train_inversion_failure": 0.0,
+      "held_inversion_failure": 0.0,
+      "max_displacement_px": 0.0,
+      "max_component_displacement_px": 0.0,
+      "distortion": {
+        "triangle_fold_fraction": 0.0,
+        "sampled_fold_fraction": 0.0,
+        "det_p05": 1.2874637842178345,
+        "det_min": 1.1915844678878784,
+        "anisotropy_p95": 1.3793537616729736,
+        "triangle_area_ratio": 1.0,
+        "overlap_pixels": 222463,
+        "overlap_retention": 1.0
+      },
+      "fit": {
+        "selected_after_inversion": 987,
+        "optimizer_seconds": 1.612819634960033,
+        "closure_evals": 203,
+        "gradient_evals": 203,
+        "outer_calls": 10,
+        "accepted_feasible_outer": 0,
+        "raw_final_valid": false,
+        "reverted_to_last_feasible": true,
+        "termination_reason": "parameter_stagnation_two_outer_calls",
+        "time_budget_seconds": 1.2786345729837194,
+        "budget_outer": 0,
+        "budget_closure_evals": 0,
+        "budget_optimizer_seconds": 0.0,
+        "checkpoints_file": "C_LBFGS_checkpoints.json",
+        "time_matched": false
+      },
+      "postprocess_cpu_seconds": 0.054206787957809865
+    },
+    "C_LBFGS_time_matched": {
+      "name": "C_LBFGS_time_matched",
+      "train": {
+        "n": 987,
+        "mean": 96.55101013183594,
+        "median": 94.51842498779297
+      },
+      "train_forward": {
+        "n": 987,
+        "mean": 95.36505126953125,
+        "median": 92.16984558105469
+      },
+      "held": {
+        "n": 128,
+        "mean": 120.6053695678711,
+        "median": 111.46348571777344
+      },
+      "aligned": {
+        "n": 0,
+        "mean": null,
+        "median": null
+      },
+      "difficult": {
+        "n": 123,
+        "mean": 125.17425537109375,
+        "median": 114.65652465820312
+      },
+      "train_inversion_failure": 0.0,
+      "held_inversion_failure": 0.0,
+      "max_displacement_px": 0.0,
+      "max_component_displacement_px": 0.0,
+      "distortion": {
+        "triangle_fold_fraction": 0.0,
+        "sampled_fold_fraction": 0.0,
+        "det_p05": 1.2874637842178345,
+        "det_min": 1.1915844678878784,
+        "anisotropy_p95": 1.3793537616729736,
+        "triangle_area_ratio": 1.0,
+        "overlap_pixels": 222463,
+        "overlap_retention": 1.0
+      },
+      "fit": {
+        "selected_after_inversion": 987,
+        "optimizer_seconds": 0.0,
+        "closure_evals": 0,
+        "gradient_evals": 0,
+        "outer_calls": 10,
+        "accepted_feasible_outer": 0,
+        "raw_final_valid": false,
+        "reverted_to_last_feasible": true,
+        "termination_reason": "parameter_stagnation_two_outer_calls",
+        "time_budget_seconds": 1.2786345729837194,
+        "budget_outer": 0,
+        "budget_closure_evals": 0,
+        "budget_optimizer_seconds": 0.0,
+        "checkpoints_file": "C_LBFGS_checkpoints.json",
+        "time_matched": true
+      }
+    },
+    "D_LBFGS": {
+      "name": "D_LBFGS",
+      "train": {
+        "n": 355,
+        "mean": 101.25407409667969,
+        "median": 96.84319305419922
+      },
+      "train_forward": {
+        "n": 355,
+        "mean": 96.96623992919922,
+        "median": 93.95531463623047
+      },
+      "held": {
+        "n": 128,
+        "mean": 120.6053695678711,
+        "median": 111.46348571777344
+      },
+      "aligned": {
+        "n": 0,
+        "mean": null,
+        "median": null
+      },
+      "difficult": {
+        "n": 123,
+        "mean": 125.17425537109375,
+        "median": 114.65652465820312
+      },
+      "train_inversion_failure": 0.0,
+      "held_inversion_failure": 0.0,
+      "max_displacement_px": 0.0,
+      "max_component_displacement_px": 0.0,
+      "distortion": {
+        "triangle_fold_fraction": 0.0,
+        "sampled_fold_fraction": 0.0,
+        "det_p05": 1.2874637842178345,
+        "det_min": 1.1915844678878784,
+        "anisotropy_p95": 1.3793537616729736,
+        "triangle_area_ratio": 1.0,
+        "overlap_pixels": 222463,
+        "overlap_retention": 1.0
+      },
+      "fit": {
+        "selected_after_inversion": 355,
+        "optimizer_seconds": 1.4399696150794625,
+        "closure_evals": 186,
+        "gradient_evals": 186,
+        "outer_calls": 9,
+        "accepted_feasible_outer": 0,
+        "raw_final_valid": false,
+        "reverted_to_last_feasible": true,
+        "termination_reason": "parameter_stagnation_two_outer_calls",
+        "time_budget_seconds": 1.2786345729837194,
+        "budget_outer": 0,
+        "budget_closure_evals": 0,
+        "budget_optimizer_seconds": 0.0,
+        "checkpoints_file": "D_LBFGS_checkpoints.json",
+        "time_matched": false
+      },
+      "postprocess_cpu_seconds": 0.06716937106102705
+    },
+    "D_LBFGS_time_matched": {
+      "name": "D_LBFGS_time_matched",
+      "train": {
+        "n": 355,
+        "mean": 101.25407409667969,
+        "median": 96.84319305419922
+      },
+      "train_forward": {
+        "n": 355,
+        "mean": 96.96623992919922,
+        "median": 93.95531463623047
+      },
+      "held": {
+        "n": 128,
+        "mean": 120.6053695678711,
+        "median": 111.46348571777344
+      },
+      "aligned": {
+        "n": 0,
+        "mean": null,
+        "median": null
+      },
+      "difficult": {
+        "n": 123,
+        "mean": 125.17425537109375,
+        "median": 114.65652465820312
+      },
+      "train_inversion_failure": 0.0,
+      "held_inversion_failure": 0.0,
+      "max_displacement_px": 0.0,
+      "max_component_displacement_px": 0.0,
+      "distortion": {
+        "triangle_fold_fraction": 0.0,
+        "sampled_fold_fraction": 0.0,
+        "det_p05": 1.2874637842178345,
+        "det_min": 1.1915844678878784,
+        "anisotropy_p95": 1.3793537616729736,
+        "triangle_area_ratio": 1.0,
+        "overlap_pixels": 222463,
+        "overlap_retention": 1.0
+      },
+      "fit": {
+        "selected_after_inversion": 355,
+        "optimizer_seconds": 0.0,
+        "closure_evals": 0,
+        "gradient_evals": 0,
+        "outer_calls": 9,
+        "accepted_feasible_outer": 0,
+        "raw_final_valid": false,
+        "reverted_to_last_feasible": true,
+        "termination_reason": "parameter_stagnation_two_outer_calls",
+        "time_budget_seconds": 1.2786345729837194,
+        "budget_outer": 0,
+        "budget_closure_evals": 0,
+        "budget_optimizer_seconds": 0.0,
+        "checkpoints_file": "D_LBFGS_checkpoints.json",
+        "time_matched": true
+      }
+    }
+  },
+  "selection": {
+    "C_points": 987,
+    "D_points": 355,
+    "C_cells": 43,
+    "D_cells": 46
+  },
+  "timing_components": {
+    "rop_cpu_seconds": 1.9679053339641541,
+    "roma_gpu_seconds": 0.3159070119727403,
+    "mixed_device_warning": true
+  }
+}

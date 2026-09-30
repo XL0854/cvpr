@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "samples": 3,
+  "numerical_checks": {
+    "identity_forward_max": 5.551115123125783e-16,
+    "roundtrip_max": 3.207828915371385e-30,
+    "roundtrip_residual_px_max": 0.0,
+    "roundtrip_all_valid": true,
+    "translation_inverse_max": 6.661338147750939e-16,
+    "translation_all_valid": true,
+    "gradient_finite": true,
+    "gradient_norm": 3.543783310713221e-05,
+    "directional_autograd": 5.748536859311383e-07,
+    "directional_finite_difference": 5.748536987138647e-07,
+    "directional_relative_error": 2.223648641347537e-08,
+    "identity_inverse_sampling_max_px": 8.54014456308505e-06,
+    "sampling_convention": "render uses inverse canvas->image TPS and torch.grid_sample align_corners=True; pixel=(normalized+1)*256, grid=2*pixel/511-1"
+  },
+  "rows": 33
+}

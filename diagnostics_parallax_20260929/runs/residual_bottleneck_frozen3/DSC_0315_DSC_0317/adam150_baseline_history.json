@@ -1,0 +1,79 @@
+[
+  {
+    "step": 0,
+    "loss": 22.58863067626953,
+    "grad_norm": 0.11755529046058655,
+    "geometry": 22.58863067626953,
+    "raw_euclidean_mean": 41.218807220458984,
+    "anchor": 0.0,
+    "smooth": 0.0,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 0.0
+  },
+  {
+    "step": 24,
+    "loss": 18.98015594482422,
+    "grad_norm": 0.10448359698057175,
+    "geometry": 18.844051361083984,
+    "raw_euclidean_mean": 35.9876594543457,
+    "anchor": 7.111788272857666,
+    "smooth": 6.094076156616211,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 0.0
+  },
+  {
+    "step": 49,
+    "loss": 15.929566383361816,
+    "grad_norm": 0.09908819943666458,
+    "geometry": 15.65203857421875,
+    "raw_euclidean_mean": 30.82916831970215,
+    "anchor": 28.931028366088867,
+    "smooth": 10.983268737792969,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 0.0
+  },
+  {
+    "step": 74,
+    "loss": 13.18685245513916,
+    "grad_norm": 0.09586932510137558,
+    "geometry": 12.727686882019043,
+    "raw_euclidean_mean": 25.67765998840332,
+    "anchor": 66.11431884765625,
+    "smooth": 16.346824645996094,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 0.0
+  },
+  {
+    "step": 99,
+    "loss": 10.643147468566895,
+    "grad_norm": 0.094586580991745,
+    "geometry": 9.990550994873047,
+    "raw_euclidean_mean": 20.49109649658203,
+    "anchor": 113.24909973144531,
+    "smooth": 21.304916381835938,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 0.0
+  },
+  {
+    "step": 124,
+    "loss": 8.195439338684082,
+    "grad_norm": 0.09333375096321106,
+    "geometry": 7.278423309326172,
+    "raw_euclidean_mean": 15.252509117126465,
+    "anchor": 172.1156463623047,
+    "smooth": 28.639238357543945,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 0.0
+  },
+  {
+    "step": 149,
+    "loss": 5.883701324462891,
+    "grad_norm": 0.09036128968000412,
+    "geometry": 4.650938987731934,
+    "raw_euclidean_mean": 10.052241325378418,
+    "anchor": 240.61871337890625,
+    "smooth": 37.576255798339844,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 0.0
+  }
+]

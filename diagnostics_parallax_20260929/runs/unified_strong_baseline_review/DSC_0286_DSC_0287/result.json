@@ -1,0 +1,355 @@
+{
+  "scene": "courtyard",
+  "pair": "DSC_0286_DSC_0287",
+  "development_evidence": true,
+  "groups": {
+    "A": {
+      "name": "A",
+      "train": {
+        "n": 0,
+        "mean": null,
+        "median": null
+      },
+      "train_forward": {
+        "n": 0,
+        "mean": null,
+        "median": null
+      },
+      "held": {
+        "n": 25,
+        "mean": 2.8076140880584717,
+        "median": 1.8817417621612549
+      },
+      "aligned": {
+        "n": 16,
+        "mean": 1.2009315490722656,
+        "median": 0.9183059930801392
+      },
+      "difficult": {
+        "n": 0,
+        "mean": null,
+        "median": null
+      },
+      "train_inversion_failure": null,
+      "held_inversion_failure": 0.0,
+      "max_displacement_px": 0.0,
+      "max_component_displacement_px": 0.0,
+      "distortion": {
+        "triangle_fold_fraction": 0.0,
+        "sampled_fold_fraction": 0.0,
+        "det_p05": 1.1634479761123657,
+        "det_min": 1.1490477323532104,
+        "anisotropy_p95": 1.256833553314209,
+        "triangle_area_ratio": 1.0,
+        "overlap_pixels": 227433,
+        "overlap_retention": 1.0
+      },
+      "fit": {
+        "reused": true,
+        "optimizer_seconds": 0.0,
+        "objective_evals": 0,
+        "gradient_evals": 0,
+        "termination_reason": "not_optimized"
+      }
+    },
+    "C_Adam": {
+      "name": "C_Adam",
+      "train": {
+        "n": 1860,
+        "mean": 2.238661050796509,
+        "median": 0.40413230657577515
+      },
+      "train_forward": {
+        "n": 1860,
+        "mean": 2.1084630489349365,
+        "median": 0.40417423844337463
+      },
+      "held": {
+        "n": 25,
+        "mean": 1.1598484516143799,
+        "median": 0.49548667669296265
+      },
+      "aligned": {
+        "n": 16,
+        "mean": 0.40047889947891235,
+        "median": 0.3206603229045868
+      },
+      "difficult": {
+        "n": 0,
+        "mean": null,
+        "median": null
+      },
+      "train_inversion_failure": 0.0,
+      "held_inversion_failure": 0.0,
+      "max_displacement_px": 13.038572311401367,
+      "max_component_displacement_px": 13.03411865234375,
+      "distortion": {
+        "triangle_fold_fraction": 0.0,
+        "sampled_fold_fraction": 0.0,
+        "det_p05": 1.1016747951507568,
+        "det_min": 0.9352315068244934,
+        "anisotropy_p95": 1.4217264652252197,
+        "triangle_area_ratio": 0.9986317753791809,
+        "overlap_pixels": 227815,
+        "overlap_retention": 1.0016796155351246
+      },
+      "fit": {
+        "reused": true,
+        "optimizer_seconds": 1.5123947570100427,
+        "objective_evals": 150,
+        "gradient_evals": 150,
+        "termination_reason": "fixed_150_steps"
+      },
+      "postprocess_cpu_seconds": 0.08003016700968146
+    },
+    "C_LBFGS": {
+      "name": "C_LBFGS",
+      "train": {
+        "n": 1860,
+        "mean": 2.23725962638855,
+        "median": 0.40666326880455017
+      },
+      "train_forward": {
+        "n": 1860,
+        "mean": 2.106848955154419,
+        "median": 0.40374794602394104
+      },
+      "held": {
+        "n": 25,
+        "mean": 1.1598637104034424,
+        "median": 0.4955841600894928
+      },
+      "aligned": {
+        "n": 16,
+        "mean": 0.40050604939460754,
+        "median": 0.3213796317577362
+      },
+      "difficult": {
+        "n": 0,
+        "mean": null,
+        "median": null
+      },
+      "train_inversion_failure": 0.0,
+      "held_inversion_failure": 0.0,
+      "max_displacement_px": 13.118699073791504,
+      "max_component_displacement_px": 13.11431884765625,
+      "distortion": {
+        "triangle_fold_fraction": 0.0,
+        "sampled_fold_fraction": 0.0,
+        "det_p05": 1.1011245250701904,
+        "det_min": 0.9347101449966431,
+        "anisotropy_p95": 1.421614408493042,
+        "triangle_area_ratio": 0.9986668229103088,
+        "overlap_pixels": 227811,
+        "overlap_retention": 1.0016620279378983
+      },
+      "fit": {
+        "selected_after_inversion": 1860,
+        "optimizer_seconds": 0.5660570720210671,
+        "closure_evals": 64,
+        "gradient_evals": 64,
+        "outer_calls": 4,
+        "accepted_feasible_outer": 4,
+        "raw_final_valid": true,
+        "reverted_to_last_feasible": false,
+        "termination_reason": "parameter_stagnation_two_outer_calls",
+        "time_budget_seconds": 1.5123947570100427,
+        "budget_outer": 4,
+        "budget_closure_evals": 64,
+        "budget_optimizer_seconds": 0.5660570720210671,
+        "checkpoints_file": "C_LBFGS_checkpoints.json",
+        "time_matched": false
+      },
+      "postprocess_cpu_seconds": 0.060820079990662634
+    },
+    "C_LBFGS_time_matched": {
+      "name": "C_LBFGS_time_matched",
+      "train": {
+        "n": 1860,
+        "mean": 2.23725962638855,
+        "median": 0.40666326880455017
+      },
+      "train_forward": {
+        "n": 1860,
+        "mean": 2.106848955154419,
+        "median": 0.40374794602394104
+      },
+      "held": {
+        "n": 25,
+        "mean": 1.1598637104034424,
+        "median": 0.4955841600894928
+      },
+      "aligned": {
+        "n": 16,
+        "mean": 0.40050604939460754,
+        "median": 0.3213796317577362
+      },
+      "difficult": {
+        "n": 0,
+        "mean": null,
+        "median": null
+      },
+      "train_inversion_failure": 0.0,
+      "held_inversion_failure": 0.0,
+      "max_displacement_px": 13.118699073791504,
+      "max_component_displacement_px": 13.11431884765625,
+      "distortion": {
+        "triangle_fold_fraction": 0.0,
+        "sampled_fold_fraction": 0.0,
+        "det_p05": 1.1011245250701904,
+        "det_min": 0.9347101449966431,
+        "anisotropy_p95": 1.421614408493042,
+        "triangle_area_ratio": 0.9986668229103088,
+        "overlap_pixels": 227811,
+        "overlap_retention": 1.0016620279378983
+      },
+      "fit": {
+        "selected_after_inversion": 1860,
+        "optimizer_seconds": 0.5660570720210671,
+        "closure_evals": 64,
+        "gradient_evals": 64,
+        "outer_calls": 4,
+        "accepted_feasible_outer": 4,
+        "raw_final_valid": true,
+        "reverted_to_last_feasible": false,
+        "termination_reason": "parameter_stagnation_two_outer_calls",
+        "time_budget_seconds": 1.5123947570100427,
+        "budget_outer": 4,
+        "budget_closure_evals": 64,
+        "budget_optimizer_seconds": 0.5660570720210671,
+        "checkpoints_file": "C_LBFGS_checkpoints.json",
+        "time_matched": true
+      }
+    },
+    "D_LBFGS": {
+      "name": "D_LBFGS",
+      "train": {
+        "n": 143,
+        "mean": 1.1393580436706543,
+        "median": 0.27350232005119324
+      },
+      "train_forward": {
+        "n": 143,
+        "mean": 1.0936360359191895,
+        "median": 0.2895522117614746
+      },
+      "held": {
+        "n": 25,
+        "mean": 1.1611604690551758,
+        "median": 0.46543818712234497
+      },
+      "aligned": {
+        "n": 16,
+        "mean": 0.5820552110671997,
+        "median": 0.43514448404312134
+      },
+      "difficult": {
+        "n": 0,
+        "mean": null,
+        "median": null
+      },
+      "train_inversion_failure": 0.0,
+      "held_inversion_failure": 0.0,
+      "max_displacement_px": 23.3284969329834,
+      "max_component_displacement_px": 21.387245178222656,
+      "distortion": {
+        "triangle_fold_fraction": 0.0,
+        "sampled_fold_fraction": 0.0,
+        "det_p05": 1.1151098012924194,
+        "det_min": 0.8759327530860901,
+        "anisotropy_p95": 1.474776268005371,
+        "triangle_area_ratio": 0.9864228963851929,
+        "overlap_pixels": 225850,
+        "overlap_retention": 0.993039708397638
+      },
+      "fit": {
+        "selected_after_inversion": 143,
+        "optimizer_seconds": 0.6223234072094783,
+        "closure_evals": 85,
+        "gradient_evals": 85,
+        "outer_calls": 5,
+        "accepted_feasible_outer": 5,
+        "raw_final_valid": true,
+        "reverted_to_last_feasible": false,
+        "termination_reason": "parameter_stagnation_two_outer_calls",
+        "time_budget_seconds": 1.5123947570100427,
+        "budget_outer": 5,
+        "budget_closure_evals": 85,
+        "budget_optimizer_seconds": 0.6223234072094783,
+        "checkpoints_file": "D_LBFGS_checkpoints.json",
+        "time_matched": false
+      },
+      "postprocess_cpu_seconds": 0.058089389000087976
+    },
+    "D_LBFGS_time_matched": {
+      "name": "D_LBFGS_time_matched",
+      "train": {
+        "n": 143,
+        "mean": 1.1393580436706543,
+        "median": 0.27350232005119324
+      },
+      "train_forward": {
+        "n": 143,
+        "mean": 1.0936360359191895,
+        "median": 0.2895522117614746
+      },
+      "held": {
+        "n": 25,
+        "mean": 1.1611604690551758,
+        "median": 0.46543818712234497
+      },
+      "aligned": {
+        "n": 16,
+        "mean": 0.5820552110671997,
+        "median": 0.43514448404312134
+      },
+      "difficult": {
+        "n": 0,
+        "mean": null,
+        "median": null
+      },
+      "train_inversion_failure": 0.0,
+      "held_inversion_failure": 0.0,
+      "max_displacement_px": 23.3284969329834,
+      "max_component_displacement_px": 21.387245178222656,
+      "distortion": {
+        "triangle_fold_fraction": 0.0,
+        "sampled_fold_fraction": 0.0,
+        "det_p05": 1.1151098012924194,
+        "det_min": 0.8759327530860901,
+        "anisotropy_p95": 1.474776268005371,
+        "triangle_area_ratio": 0.9864228963851929,
+        "overlap_pixels": 225850,
+        "overlap_retention": 0.993039708397638
+      },
+      "fit": {
+        "selected_after_inversion": 143,
+        "optimizer_seconds": 0.6223234072094783,
+        "closure_evals": 85,
+        "gradient_evals": 85,
+        "outer_calls": 5,
+        "accepted_feasible_outer": 5,
+        "raw_final_valid": true,
+        "reverted_to_last_feasible": false,
+        "termination_reason": "parameter_stagnation_two_outer_calls",
+        "time_budget_seconds": 1.5123947570100427,
+        "budget_outer": 5,
+        "budget_closure_evals": 85,
+        "budget_optimizer_seconds": 0.6223234072094783,
+        "checkpoints_file": "D_LBFGS_checkpoints.json",
+        "time_matched": true
+      }
+    }
+  },
+  "selection": {
+    "C_points": 1860,
+    "D_points": 143,
+    "C_cells": 47,
+    "D_cells": 44
+  },
+  "timing_components": {
+    "rop_cpu_seconds": 1.5616368120536208,
+    "roma_gpu_seconds": 7.850311303976923,
+    "mixed_device_warning": true
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "scene": "data/ETH3D/delivery_area",
+  "selection_protocol": "adjacent lexicographic frames; stride-32 ETH3D evaluable>=200; five nearest evenly spaced index quantiles including endpoints; ties earlier",
+  "pairs": [
+    [
+      "DSC_0675.JPG",
+      "DSC_0676.JPG"
+    ],
+    [
+      "DSC_0685.JPG",
+      "DSC_0686.JPG"
+    ],
+    [
+      "DSC_0695.JPG",
+      "DSC_0696.JPG"
+    ],
+    [
+      "DSC_0704.JPG",
+      "DSC_0705.JPG"
+    ],
+    [
+      "DSC_0717.JPG",
+      "DSC_0718.JPG"
+    ]
+  ]
+}

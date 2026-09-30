@@ -1,0 +1,109 @@
+{
+  "status": "fixed_filter_audit_complete",
+  "pairs": 5,
+  "far_denominator_definition": "truth-evaluable incorrect candidates (e_native>6 px); uncertain 3<e<=6 and unavailable excluded",
+  "precision_denominator_definition": "kept classified candidates: correct plus incorrect; uncertain/unavailable excluded",
+  "counts": {
+    "correct": 2337,
+    "incorrect": 191,
+    "uncertain": 273,
+    "unable": 17679,
+    "correct_large_r_ge_10": 1450,
+    "correct_small_r_lt_10": 887
+  },
+  "filters_at_matched_incorrect_acceptance": {
+    "min_bidirectional_confidence": {
+      "0.01": {
+        "threshold": 0.9479945302009583,
+        "incorrect_acceptance": 0.005235602094240838,
+        "all_correct_retention": 0.2100984167736414,
+        "large_correct_retention": 0.14275862068965517,
+        "small_correct_retention": 0.3201803833145434
+      },
+      "0.05": {
+        "threshold": 0.8246394395828247,
+        "incorrect_acceptance": 0.04712041884816754,
+        "all_correct_retention": 0.5400085579803167,
+        "large_correct_retention": 0.42,
+        "small_correct_retention": 0.7361894024802705
+      },
+      "0.1": {
+        "threshold": 0.4972268342971802,
+        "incorrect_acceptance": 0.09947643979057591,
+        "all_correct_retention": 0.7488232777064613,
+        "large_correct_retention": 0.6482758620689655,
+        "small_correct_retention": 0.9131905298759865
+      }
+    },
+    "cycle_error": {
+      "0.01": {
+        "threshold": 0.014353776350617409,
+        "incorrect_acceptance": 0.005235602094240838,
+        "all_correct_retention": 0.05733846812152332,
+        "large_correct_retention": 0.039310344827586205,
+        "small_correct_retention": 0.08680947012401354
+      },
+      "0.05": {
+        "threshold": 0.0808553397655487,
+        "incorrect_acceptance": 0.04712041884816754,
+        "all_correct_retention": 0.6422764227642277,
+        "large_correct_retention": 0.5379310344827586,
+        "small_correct_retention": 0.8128523111612176
+      },
+      "0.1": {
+        "threshold": 0.11925143748521805,
+        "incorrect_acceptance": 0.09947643979057591,
+        "all_correct_retention": 0.772785622593068,
+        "large_correct_retention": 0.6827586206896552,
+        "small_correct_retention": 0.9199549041713642
+      }
+    },
+    "current_shape_residual": {
+      "0.01": {
+        "threshold": 0.8735395669937134,
+        "incorrect_acceptance": 0.005235602094240838,
+        "all_correct_retention": 0.05733846812152332,
+        "large_correct_retention": 0.0,
+        "small_correct_retention": 0.15107102593010147
+      },
+      "0.05": {
+        "threshold": 2.453111410140991,
+        "incorrect_acceptance": 0.04712041884816754,
+        "all_correct_retention": 0.26230209670517757,
+        "large_correct_retention": 0.0,
+        "small_correct_retention": 0.6910935738444194
+      },
+      "0.1": {
+        "threshold": 5.68784761428833,
+        "incorrect_acceptance": 0.09947643979057591,
+        "all_correct_retention": 0.34445870774497217,
+        "large_correct_retention": 0.0,
+        "small_correct_retention": 0.9075535512965051
+      }
+    }
+  },
+  "frozen_C_rule": {
+    "rule": "forward confidence>=0.5, reverse confidence>=0.5, cycle<=2 px",
+    "kept_correct": 1747,
+    "kept_incorrect": 17,
+    "kept_classified": 1764,
+    "post_filter_precision": 0.9903628117913832,
+    "incorrect_acceptance_numerator": 17,
+    "incorrect_acceptance_denominator": 191,
+    "incorrect_acceptance": 0.08900523560209424,
+    "correct_large_kept": 937,
+    "correct_large_total": 1450,
+    "correct_large_retention": 0.6462068965517241,
+    "correct_small_kept": 810,
+    "correct_small_total": 887,
+    "correct_small_retention": 0.9131905298759865,
+    "large_correct_cells_before": 64,
+    "large_correct_cells_after": 61,
+    "all_kept_source_cells": 64
+  },
+  "per_pair_csv": "filter_audit_per_pair.csv",
+  "limits": [
+    "small preselected scene batches",
+    "pooled counts can be dominated by pairs with more evaluable candidates"
+  ]
+}

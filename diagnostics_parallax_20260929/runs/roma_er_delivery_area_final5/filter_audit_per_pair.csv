@@ -1,0 +1,6 @@
+pair,kept_correct,kept_incorrect,kept_classified,post_filter_precision,incorrect_acceptance_numerator,incorrect_acceptance_denominator,incorrect_acceptance,correct_large_kept,correct_large_total,correct_large_retention,correct_small_kept,correct_small_total,correct_small_retention,large_correct_cells_before,large_correct_cells_after,all_kept_source_cells,uncertain_total,unable_total
+DSC_0675_DSC_0676,31,2,33,0.9393939393939394,2,41,0.04878048780487805,0,0,0.0,31,80,0.3875,0,0,51,34,3941
+DSC_0685_DSC_0686,76,2,78,0.9743589743589743,2,5,0.4,14,16,0.875,62,72,0.8611111111111112,9,7,51,5,3998
+DSC_0695_DSC_0696,71,0,71,1.0,0,11,0.0,60,103,0.5825242718446602,11,20,0.55,45,28,59,9,3953
+DSC_0704_DSC_0705,73,2,75,0.9733333333333334,2,14,0.14285714285714285,11,31,0.3548387096774194,62,97,0.6391752577319587,13,11,52,10,3944
+DSC_0717_DSC_0718,62,7,69,0.8985507246376812,7,32,0.21875,37,131,0.2824427480916031,25,35,0.7142857142857143,36,17,39,36,3862

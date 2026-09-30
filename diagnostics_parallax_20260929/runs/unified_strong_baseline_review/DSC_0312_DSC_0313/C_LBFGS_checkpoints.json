@@ -1,0 +1,74 @@
+[
+  {
+    "outer": 1,
+    "cumulative_seconds": 0.20934835309162736,
+    "closure_evals": 24,
+    "local_evals": 24,
+    "accepted_feasible": true,
+    "parameter_change_max": 9.50648021697998,
+    "loss": 0.14062242209911346,
+    "grad_norm": 5.365118704503402e-05,
+    "terms": {
+      "geometry": 0.07840493321418762,
+      "raw_euclidean_mean": 0.5084028244018555,
+      "anchor": 4.573233604431152,
+      "smooth": 2.6535511016845703,
+      "triangle_barrier": 0.0,
+      "tps_barrier": 0.0
+    }
+  },
+  {
+    "outer": 2,
+    "cumulative_seconds": 0.3415908281458542,
+    "closure_evals": 40,
+    "local_evals": 16,
+    "accepted_feasible": true,
+    "parameter_change_max": 0.12443172931671143,
+    "loss": 0.1406181901693344,
+    "grad_norm": 7.464766895282082e-06,
+    "terms": {
+      "geometry": 0.07833639532327652,
+      "raw_euclidean_mean": 0.5082446336746216,
+      "anchor": 4.5743632316589355,
+      "smooth": 2.65665340423584,
+      "triangle_barrier": 0.0,
+      "tps_barrier": 0.0
+    }
+  },
+  {
+    "outer": 3,
+    "cumulative_seconds": 0.39839368511456996,
+    "closure_evals": 47,
+    "local_evals": 7,
+    "accepted_feasible": true,
+    "parameter_change_max": 0.0,
+    "loss": 0.1406181901693344,
+    "grad_norm": 7.464766895282082e-06,
+    "terms": {
+      "geometry": 0.07833639532327652,
+      "raw_euclidean_mean": 0.5082446336746216,
+      "anchor": 4.5743632316589355,
+      "smooth": 2.65665340423584,
+      "triangle_barrier": 0.0,
+      "tps_barrier": 0.0
+    }
+  },
+  {
+    "outer": 4,
+    "cumulative_seconds": 0.4539138521067798,
+    "closure_evals": 54,
+    "local_evals": 7,
+    "accepted_feasible": true,
+    "parameter_change_max": 0.0,
+    "loss": 0.1406181901693344,
+    "grad_norm": 7.464766895282082e-06,
+    "terms": {
+      "geometry": 0.07833639532327652,
+      "raw_euclidean_mean": 0.5082446336746216,
+      "anchor": 4.5743632316589355,
+      "smooth": 2.65665340423584,
+      "triangle_barrier": 0.0,
+      "tps_barrier": 0.0
+    }
+  }
+]

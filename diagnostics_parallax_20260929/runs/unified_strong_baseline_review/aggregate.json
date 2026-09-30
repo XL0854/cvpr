@@ -1,0 +1,478 @@
+{
+  "courtyard": {
+    "pairs": 5,
+    "groups": {
+      "A": {
+        "held": {
+          "n": 615,
+          "mean": 65.94890980642985
+        },
+        "aligned": {
+          "n": 156,
+          "mean": 1.4919066154039824
+        },
+        "difficult": {
+          "n": 416,
+          "mean": 96.3239511847496
+        },
+        "max_fold": 0.0,
+        "min_overlap_retention": 1.0,
+        "max_anisotropy_p95": 1.5267155170440674,
+        "fit_seconds_mean": 0.0,
+        "objective_evals_mean": 0
+      },
+      "C_Adam": {
+        "held": {
+          "n": 615,
+          "mean": 53.552106131964585
+        },
+        "aligned": {
+          "n": 156,
+          "mean": 0.555352291999719
+        },
+        "difficult": {
+          "n": 416,
+          "mean": 78.39072376948137
+        },
+        "max_fold": 0.0,
+        "min_overlap_retention": 0.9023133310488938,
+        "max_anisotropy_p95": 2.9990458488464355,
+        "fit_seconds_mean": 1.3472281043883414,
+        "objective_evals_mean": 150
+      },
+      "C_LBFGS": {
+        "held": {
+          "n": 615,
+          "mean": 39.331139995218294
+        },
+        "aligned": {
+          "n": 156,
+          "mean": 0.5554206035076044
+        },
+        "difficult": {
+          "n": 416,
+          "mean": 57.39537206979898
+        },
+        "max_fold": 0.0,
+        "min_overlap_retention": 0.8661251201010528,
+        "max_anisotropy_p95": 2.0311527252197266,
+        "fit_seconds_mean": 1.516154964454472,
+        "objective_evals_mean": 165.2
+      },
+      "D_LBFGS": {
+        "held": {
+          "n": 615,
+          "mean": 35.88730006605629
+        },
+        "aligned": {
+          "n": 156,
+          "mean": 0.6293544005124997
+        },
+        "difficult": {
+          "n": 416,
+          "mean": 52.36034309520171
+        },
+        "max_fold": 0.0,
+        "min_overlap_retention": 0.8425349216907541,
+        "max_anisotropy_p95": 2.3321712017059326,
+        "fit_seconds_mean": 1.5294092469848692,
+        "objective_evals_mean": 172.6
+      },
+      "C_LBFGS_time_matched": {
+        "held": {
+          "n": 615,
+          "mean": 39.62479329109192
+        },
+        "aligned": {
+          "n": 156,
+          "mean": 0.5554206035076044
+        },
+        "difficult": {
+          "n": 416,
+          "mean": 57.82949893749677
+        },
+        "max_fold": 0.0,
+        "min_overlap_retention": 0.8661251201010528,
+        "max_anisotropy_p95": 2.2889461517333984,
+        "fit_seconds_mean": 0.6930091086309403,
+        "objective_evals_mean": 76.4
+      },
+      "D_LBFGS_time_matched": {
+        "held": {
+          "n": 615,
+          "mean": 37.166822253203975
+        },
+        "aligned": {
+          "n": 156,
+          "mean": 0.6293544005124997
+        },
+        "difficult": {
+          "n": 416,
+          "mean": 54.251944405528214
+        },
+        "max_fold": 0.0,
+        "min_overlap_retention": 0.8426357057910544,
+        "max_anisotropy_p95": 3.1134610176086426,
+        "fit_seconds_mean": 0.7020885051926598,
+        "objective_evals_mean": 81.6
+      }
+    }
+  },
+  "delivery_area": {
+    "pairs": 5,
+    "groups": {
+      "A": {
+        "held": {
+          "n": 208,
+          "mean": 18.025397880719257
+        },
+        "aligned": {
+          "n": 75,
+          "mean": 1.569610563913981
+        },
+        "difficult": {
+          "n": 82,
+          "mean": 40.692115120771454
+        },
+        "max_fold": 0.0,
+        "min_overlap_retention": 1.0,
+        "max_anisotropy_p95": 1.4029614925384521,
+        "fit_seconds_mean": 0.0,
+        "objective_evals_mean": 0
+      },
+      "C_Adam": {
+        "held": {
+          "n": 208,
+          "mean": 13.786691893751804
+        },
+        "aligned": {
+          "n": 75,
+          "mean": 1.104044623374939
+        },
+        "difficult": {
+          "n": 82,
+          "mean": 31.31345869855183
+        },
+        "max_fold": 0.0,
+        "min_overlap_retention": 0.9629818383988139,
+        "max_anisotropy_p95": 4.036624908447266,
+        "fit_seconds_mean": 1.6125284190056846,
+        "objective_evals_mean": 150
+      },
+      "C_LBFGS": {
+        "held": {
+          "n": 208,
+          "mean": 11.638603498156254
+        },
+        "aligned": {
+          "n": 75,
+          "mean": 1.1062782494227092
+        },
+        "difficult": {
+          "n": 82,
+          "mean": 25.6634247768216
+        },
+        "max_fold": 0.0,
+        "min_overlap_retention": 0.9527259249275558,
+        "max_anisotropy_p95": 3.68245530128479,
+        "fit_seconds_mean": 0.9755393350031227,
+        "objective_evals_mean": 114.6
+      },
+      "D_LBFGS": {
+        "held": {
+          "n": 208,
+          "mean": 12.906389467991316
+        },
+        "aligned": {
+          "n": 75,
+          "mean": 1.1785187530517578
+        },
+        "difficult": {
+          "n": 82,
+          "mean": 28.49078117928854
+        },
+        "max_fold": 0.0,
+        "min_overlap_retention": 0.9804463988955079,
+        "max_anisotropy_p95": 2.2724390029907227,
+        "fit_seconds_mean": 1.1052672234363854,
+        "objective_evals_mean": 136
+      },
+      "C_LBFGS_time_matched": {
+        "held": {
+          "n": 208,
+          "mean": 11.638603498156254
+        },
+        "aligned": {
+          "n": 75,
+          "mean": 1.1062782494227092
+        },
+        "difficult": {
+          "n": 82,
+          "mean": 25.6634247768216
+        },
+        "max_fold": 0.0,
+        "min_overlap_retention": 0.9527259249275558,
+        "max_anisotropy_p95": 3.68245530128479,
+        "fit_seconds_mean": 0.9617624522186816,
+        "objective_evals_mean": 112.8
+      },
+      "D_LBFGS_time_matched": {
+        "held": {
+          "n": 208,
+          "mean": 12.906389467991316
+        },
+        "aligned": {
+          "n": 75,
+          "mean": 1.1785187530517578
+        },
+        "difficult": {
+          "n": 82,
+          "mean": 28.49078117928854
+        },
+        "max_fold": 0.0,
+        "min_overlap_retention": 0.9804463988955079,
+        "max_anisotropy_p95": 2.2724390029907227,
+        "fit_seconds_mean": 0.7501510520698502,
+        "objective_evals_mean": 98.4
+      }
+    }
+  },
+  "electro": {
+    "pairs": 5,
+    "groups": {
+      "A": {
+        "held": {
+          "n": 531,
+          "mean": 15.304502228559073
+        },
+        "aligned": {
+          "n": 30,
+          "mean": 1.7790316065152487
+        },
+        "difficult": {
+          "n": 290,
+          "mean": 22.871702733533137
+        },
+        "max_fold": 0.0,
+        "min_overlap_retention": 1.0,
+        "max_anisotropy_p95": 1.539560079574585,
+        "fit_seconds_mean": 0.0,
+        "objective_evals_mean": 0
+      },
+      "C_Adam": {
+        "held": {
+          "n": 531,
+          "mean": 11.871919865437595
+        },
+        "aligned": {
+          "n": 30,
+          "mean": 1.9347766399383546
+        },
+        "difficult": {
+          "n": 290,
+          "mean": 16.145652708513982
+        },
+        "max_fold": 0.0,
+        "min_overlap_retention": 0.8790869428090833,
+        "max_anisotropy_p95": 1.6876927614212036,
+        "fit_seconds_mean": 1.540479079587385,
+        "objective_evals_mean": 150
+      },
+      "C_LBFGS": {
+        "held": {
+          "n": 531,
+          "mean": 11.307352832930686
+        },
+        "aligned": {
+          "n": 30,
+          "mean": 2.101102900505066
+        },
+        "difficult": {
+          "n": 290,
+          "mean": 15.054671636121027
+        },
+        "max_fold": 0.0,
+        "min_overlap_retention": 0.8466060414914494,
+        "max_anisotropy_p95": 1.8237184286117554,
+        "fit_seconds_mean": 1.120433359243907,
+        "objective_evals_mean": 111.2
+      },
+      "D_LBFGS": {
+        "held": {
+          "n": 531,
+          "mean": 11.109343676019298
+        },
+        "aligned": {
+          "n": 30,
+          "mean": 2.452525019645691
+        },
+        "difficult": {
+          "n": 290,
+          "mean": 14.844953629066204
+        },
+        "max_fold": 0.0,
+        "min_overlap_retention": 0.8618017591813849,
+        "max_anisotropy_p95": 2.473315715789795,
+        "fit_seconds_mean": 1.1977238628081976,
+        "objective_evals_mean": 123.4
+      },
+      "C_LBFGS_time_matched": {
+        "held": {
+          "n": 531,
+          "mean": 11.307352832930686
+        },
+        "aligned": {
+          "n": 30,
+          "mean": 2.101102900505066
+        },
+        "difficult": {
+          "n": 290,
+          "mean": 15.054671636121027
+        },
+        "max_fold": 0.0,
+        "min_overlap_retention": 0.8466060414914494,
+        "max_anisotropy_p95": 1.8237184286117554,
+        "fit_seconds_mean": 1.088916053646244,
+        "objective_evals_mean": 108
+      },
+      "D_LBFGS_time_matched": {
+        "held": {
+          "n": 531,
+          "mean": 11.112617494471777
+        },
+        "aligned": {
+          "n": 30,
+          "mean": 2.4825625816980996
+        },
+        "difficult": {
+          "n": 290,
+          "mean": 14.841130628256963
+        },
+        "max_fold": 0.0,
+        "min_overlap_retention": 0.8597736192879171,
+        "max_anisotropy_p95": 2.4776363372802734,
+        "fit_seconds_mean": 1.0698070125887171,
+        "objective_evals_mean": 110
+      }
+    }
+  },
+  "all": {
+    "pairs": 15,
+    "groups": {
+      "A": {
+        "held": {
+          "n": 1354,
+          "mean": 38.7256668932857
+        },
+        "aligned": {
+          "n": 261,
+          "mean": 1.5472382087817138
+        },
+        "difficult": {
+          "n": 788,
+          "mean": 63.50293264655292
+        },
+        "max_fold": 0.0,
+        "min_overlap_retention": 1.0,
+        "max_anisotropy_p95": 1.539560079574585,
+        "fit_seconds_mean": 0.0,
+        "objective_evals_mean": 0
+      },
+      "C_Adam": {
+        "held": {
+          "n": 1354,
+          "mean": 31.097611989369245
+        },
+        "aligned": {
+          "n": 261,
+          "mean": 0.8715770249165794
+        },
+        "difficult": {
+          "n": 788,
+          "mean": 50.584370541693595
+        },
+        "max_fold": 0.0,
+        "min_overlap_retention": 0.8790869428090833,
+        "max_anisotropy_p95": 4.036624908447266,
+        "fit_seconds_mean": 1.500078534327137,
+        "objective_evals_mean": 150
+      },
+      "C_LBFGS": {
+        "held": {
+          "n": 1354,
+          "mean": 24.086916528036888
+        },
+        "aligned": {
+          "n": 261,
+          "mean": 0.8913776623334921
+        },
+        "difficult": {
+          "n": 788,
+          "mean": 38.51107917158737
+        },
+        "max_fold": 0.0,
+        "min_overlap_retention": 0.8466060414914494,
+        "max_anisotropy_p95": 3.68245530128479,
+        "fit_seconds_mean": 1.2040425529005006,
+        "objective_evals_mean": 130.33333333333334
+      },
+      "D_LBFGS": {
+        "held": {
+          "n": 1354,
+          "mean": 22.639793236287343
+        },
+        "aligned": {
+          "n": 261,
+          "mean": 0.9967200902229981
+        },
+        "difficult": {
+          "n": 788,
+          "mean": 36.07002961514565
+        },
+        "max_fold": 0.0,
+        "min_overlap_retention": 0.8425349216907541,
+        "max_anisotropy_p95": 2.473315715789795,
+        "fit_seconds_mean": 1.2774667777431508,
+        "objective_evals_mean": 144
+      },
+      "C_LBFGS_time_matched": {
+        "held": {
+          "n": 1354,
+          "mean": 24.220296717817003
+        },
+        "aligned": {
+          "n": 261,
+          "mean": 0.8913776623334921
+        },
+        "difficult": {
+          "n": 788,
+          "mean": 38.74026289869686
+        },
+        "max_fold": 0.0,
+        "min_overlap_retention": 0.8466060414914494,
+        "max_anisotropy_p95": 3.68245530128479,
+        "fit_seconds_mean": 0.9145625381652887,
+        "objective_evals_mean": 99.06666666666666
+      },
+      "D_LBFGS_time_matched": {
+        "held": {
+          "n": 1354,
+          "mean": 23.222248585396713
+        },
+        "aligned": {
+          "n": 261,
+          "mean": 1.0001726835623554
+        },
+        "difficult": {
+          "n": 788,
+          "mean": 37.067234532482125
+        },
+        "max_fold": 0.0,
+        "min_overlap_retention": 0.8426357057910544,
+        "max_anisotropy_p95": 3.1134610176086426,
+        "fit_seconds_mean": 0.840682189950409,
+        "objective_evals_mean": 96.66666666666667
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "pairs": 15,
+  "groups": [
+    "A",
+    "C_Adam",
+    "C_LBFGS",
+    "D_LBFGS"
+  ],
+  "time_matched_supplement": true
+}

@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "steps": 150,
+  "device": "cpu",
+  "pairs": 5,
+  "reference_side_fixed": true,
+  "heldout_rule": "source 8x8 cell_id mod 4 == 0; never optimized"
+}

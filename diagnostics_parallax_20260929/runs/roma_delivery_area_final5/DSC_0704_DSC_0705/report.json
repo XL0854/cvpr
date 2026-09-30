@@ -1,0 +1,9 @@
+{
+  "id": "DSC_0704_DSC_0705",
+  "source": "DSC_0704.JPG",
+  "target": "DSC_0705.JPG",
+  "candidates": 4096,
+  "valid_prediction": 4078,
+  "seconds": 0.31452958995942026,
+  "peak_memory_bytes": 4598822400
+}

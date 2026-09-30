@@ -1,0 +1,74 @@
+[
+  {
+    "outer": 1,
+    "cumulative_seconds": 0.17925628495868295,
+    "closure_evals": 23,
+    "local_evals": 23,
+    "accepted_feasible": true,
+    "parameter_change_max": 15.167524337768555,
+    "loss": 0.2461807131767273,
+    "grad_norm": 0.0002811880549415946,
+    "terms": {
+      "geometry": 0.12658008933067322,
+      "raw_euclidean_mean": 0.5960957407951355,
+      "anchor": 7.545516490936279,
+      "smooth": 5.225479602813721,
+      "triangle_barrier": 0.0,
+      "tps_barrier": 0.0
+    }
+  },
+  {
+    "outer": 2,
+    "cumulative_seconds": 0.3988394329790026,
+    "closure_evals": 51,
+    "local_evals": 28,
+    "accepted_feasible": true,
+    "parameter_change_max": 0.42068958282470703,
+    "loss": 0.2460794746875763,
+    "grad_norm": 4.794111737282947e-05,
+    "terms": {
+      "geometry": 0.1268337368965149,
+      "raw_euclidean_mean": 0.5965093970298767,
+      "anchor": 7.579050064086914,
+      "smooth": 5.204381942749023,
+      "triangle_barrier": 0.0,
+      "tps_barrier": 0.0
+    }
+  },
+  {
+    "outer": 3,
+    "cumulative_seconds": 0.45560117496643215,
+    "closure_evals": 58,
+    "local_evals": 7,
+    "accepted_feasible": true,
+    "parameter_change_max": 0.0,
+    "loss": 0.2460794746875763,
+    "grad_norm": 4.794111737282947e-05,
+    "terms": {
+      "geometry": 0.1268337368965149,
+      "raw_euclidean_mean": 0.5965093970298767,
+      "anchor": 7.579050064086914,
+      "smooth": 5.204381942749023,
+      "triangle_barrier": 0.0,
+      "tps_barrier": 0.0
+    }
+  },
+  {
+    "outer": 4,
+    "cumulative_seconds": 0.5092521250480786,
+    "closure_evals": 65,
+    "local_evals": 7,
+    "accepted_feasible": true,
+    "parameter_change_max": 0.0,
+    "loss": 0.2460794746875763,
+    "grad_norm": 4.794111737282947e-05,
+    "terms": {
+      "geometry": 0.1268337368965149,
+      "raw_euclidean_mean": 0.5965093970298767,
+      "anchor": 7.579050064086914,
+      "smooth": 5.204381942749023,
+      "triangle_barrier": 0.0,
+      "tps_barrier": 0.0
+    }
+  }
+]

@@ -1,0 +1,145 @@
+[
+  {
+    "step": 0,
+    "loss": 68.3825454711914,
+    "grad_norm": 0.13683128356933594,
+    "geometry": 68.3825454711914,
+    "raw_euclidean_mean": 123.94721221923828,
+    "anchor": 0.0,
+    "smooth": 0.0,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 0.0
+  },
+  {
+    "step": 24,
+    "loss": 63.38503646850586,
+    "grad_norm": 0.10739138722419739,
+    "geometry": 63.09364700317383,
+    "raw_euclidean_mean": 117.81878662109375,
+    "anchor": 9.282736778259277,
+    "smooth": 13.6412353515625,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 0.0
+  },
+  {
+    "step": 49,
+    "loss": 59.685359954833984,
+    "grad_norm": 0.08582980930805206,
+    "geometry": 59.101104736328125,
+    "raw_euclidean_mean": 112.744384765625,
+    "anchor": 34.84352111816406,
+    "smooth": 25.72840118408203,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 0.0
+  },
+  {
+    "step": 74,
+    "loss": 56.666107177734375,
+    "grad_norm": 0.07855859398841858,
+    "geometry": 55.86299514770508,
+    "raw_euclidean_mean": 108.02519989013672,
+    "anchor": 79.42316436767578,
+    "smooth": 32.21284484863281,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 9.97700979610272e-08
+  },
+  {
+    "step": 99,
+    "loss": 55.75633239746094,
+    "grad_norm": 0.0762823298573494,
+    "geometry": 54.98613357543945,
+    "raw_euclidean_mean": 106.65015411376953,
+    "anchor": 104.81443786621094,
+    "smooth": 28.028533935546875,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 0.0
+  },
+  {
+    "step": 124,
+    "loss": 55.6417236328125,
+    "grad_norm": 0.07802470773458481,
+    "geometry": 54.94987106323242,
+    "raw_euclidean_mean": 106.57022094726562,
+    "anchor": 105.70886993408203,
+    "smooth": 24.021682739257812,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 0.0
+  },
+  {
+    "step": 149,
+    "loss": 55.60061264038086,
+    "grad_norm": 0.07927673310041428,
+    "geometry": 54.96043395996094,
+    "raw_euclidean_mean": 106.583740234375,
+    "anchor": 106.94694519042969,
+    "smooth": 21.314205169677734,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 0.0
+  },
+  {
+    "step": 174,
+    "loss": 55.5731086730957,
+    "grad_norm": 0.07990650087594986,
+    "geometry": 54.964385986328125,
+    "raw_euclidean_mean": 106.58458709716797,
+    "anchor": 107.69001770019531,
+    "smooth": 19.66713523864746,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 0.0
+  },
+  {
+    "step": 199,
+    "loss": 55.56734085083008,
+    "grad_norm": 0.08041005581617355,
+    "geometry": 54.97636795043945,
+    "raw_euclidean_mean": 106.6100845336914,
+    "anchor": 108.2020263671875,
+    "smooth": 18.728389739990234,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 0.0
+  },
+  {
+    "step": 224,
+    "loss": 55.56630325317383,
+    "grad_norm": 0.08064579218626022,
+    "geometry": 54.982078552246094,
+    "raw_euclidean_mean": 106.6224365234375,
+    "anchor": 108.4693603515625,
+    "smooth": 18.364376068115234,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 0.0
+  },
+  {
+    "step": 249,
+    "loss": 55.56619644165039,
+    "grad_norm": 0.08073864877223969,
+    "geometry": 54.98412322998047,
+    "raw_euclidean_mean": 106.6268539428711,
+    "anchor": 108.59487915039062,
+    "smooth": 18.24409294128418,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 0.0
+  },
+  {
+    "step": 274,
+    "loss": 55.566192626953125,
+    "grad_norm": 0.08076135814189911,
+    "geometry": 54.984622955322266,
+    "raw_euclidean_mean": 106.62797546386719,
+    "anchor": 108.65032196044922,
+    "smooth": 18.21353530883789,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 0.0
+  },
+  {
+    "step": 299,
+    "loss": 55.56620788574219,
+    "grad_norm": 0.08076392114162445,
+    "geometry": 54.98470687866211,
+    "raw_euclidean_mean": 106.62813568115234,
+    "anchor": 108.67176055908203,
+    "smooth": 18.20795440673828,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 0.0
+  }
+]

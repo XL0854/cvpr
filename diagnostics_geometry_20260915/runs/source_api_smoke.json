@@ -1,0 +1,30 @@
+{
+  "n": 1,
+  "mean_adaptive_calls": 11.0,
+  "fallback_rate": 0.0,
+  "mean_adaptive_seconds": 2.537805203348398,
+  "mean_full_seconds": 5.526094522327185,
+  "mean_adaptive_ssim": 0.9264032244682312,
+  "mean_full_ssim": 0.9268698692321777,
+  "mean_adaptive_psnr": 31.781225204467773,
+  "mean_full_psnr": 31.816246032714844,
+  "rows": [
+    {
+      "name": "000002.jpg",
+      "adaptive_alpha": 0.5833333333333333,
+      "full_alpha": 0.6388820416774601,
+      "adaptive_ssim": 0.9264032244682312,
+      "full_ssim": 0.9268698692321777,
+      "adaptive_psnr": 31.781225204467773,
+      "full_psnr": 31.816246032714844,
+      "adaptive": {
+        "calls": 11,
+        "fallback": false,
+        "coarse_best": 0.5,
+        "elapsed_seconds": 2.537805203348398
+      },
+      "full_calls": 40,
+      "full_seconds": 5.526094522327185
+    }
+  ]
+}

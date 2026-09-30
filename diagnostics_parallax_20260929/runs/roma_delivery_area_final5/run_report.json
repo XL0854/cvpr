@@ -1,0 +1,63 @@
+{
+  "status": "completed",
+  "device": "cuda:0",
+  "spacing_512_px": 8,
+  "candidate_policy": "regular source grid; no confidence, cycle, geometry, or RopStitch-residual filtering",
+  "model": {
+    "name": "RoMa outdoor",
+    "commit": "77f8d68803526dcddfd9b7a46bc76125bdc25f15",
+    "coarse_res": 560,
+    "upsample_res": 864,
+    "symmetric": true,
+    "use_custom_corr": false,
+    "roma_sha256": "c7a45c80d41ad788a63c641d1b686d7cb3f297f40097c6f4e75039889e5cc8ba",
+    "dinov2_sha256": "d5383ea8f4877b2472eb973e0fd72d557c7da5d3611bd527ceeb1d7162cbf428"
+  },
+  "pairs": [
+    {
+      "id": "DSC_0675_DSC_0676",
+      "source": "DSC_0675.JPG",
+      "target": "DSC_0676.JPG",
+      "candidates": 4096,
+      "valid_prediction": 4071,
+      "seconds": 3.4773658100748435,
+      "peak_memory_bytes": 4569425408
+    },
+    {
+      "id": "DSC_0685_DSC_0686",
+      "source": "DSC_0685.JPG",
+      "target": "DSC_0686.JPG",
+      "candidates": 4096,
+      "valid_prediction": 4038,
+      "seconds": 0.32586024689953774,
+      "peak_memory_bytes": 4599047680
+    },
+    {
+      "id": "DSC_0695_DSC_0696",
+      "source": "DSC_0695.JPG",
+      "target": "DSC_0696.JPG",
+      "candidates": 4096,
+      "valid_prediction": 4093,
+      "seconds": 0.3246074649505317,
+      "peak_memory_bytes": 4598525440
+    },
+    {
+      "id": "DSC_0704_DSC_0705",
+      "source": "DSC_0704.JPG",
+      "target": "DSC_0705.JPG",
+      "candidates": 4096,
+      "valid_prediction": 4078,
+      "seconds": 0.31452958995942026,
+      "peak_memory_bytes": 4598822400
+    },
+    {
+      "id": "DSC_0717_DSC_0718",
+      "source": "DSC_0717.JPG",
+      "target": "DSC_0718.JPG",
+      "candidates": 4096,
+      "valid_prediction": 4087,
+      "seconds": 0.304932750063017,
+      "peak_memory_bytes": 4598715392
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+# Datasets and downloaded archives
+data/
+*.7z
+*.zip
+
+# Model and matcher weights
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Python/cache/runtime output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+cache/
+nohup*.out
+*.log
+
+# Local environments and editors
+.venv/
+venv/
+.vscode/
+.idea/
+
+# Third-party checkouts are documented but not vendored
+diagnostics_geometry_20260915/third_party/
+diagnostics_parallax_20260929/third_party/
+
+# Large reproducible intermediates
+**/candidates.npz
+**/initial_geometry.npz
+**/*_mesh.npy

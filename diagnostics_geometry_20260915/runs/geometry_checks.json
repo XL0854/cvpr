@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "original_tps_coordinate_parity_max_px": 6.103515625e-05,
+  "nonlinear_inverse_error_normalized": 1.7881393432617188e-07,
+  "gradient": "finite nonzero",
+  "split_guard": "passed in both source images"
+}

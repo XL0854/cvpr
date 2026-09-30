@@ -1,0 +1,167 @@
+[
+  {
+    "step": 25,
+    "loss": 3.96915340423584,
+    "grad_norm": 0.03626897558569908,
+    "geometry": 1.5851019620895386,
+    "raw_euclidean_mean": 3.5793533325195312,
+    "anchor": 199.71749877929688,
+    "smooth": 99.16553497314453,
+    "triangle_barrier": 3.3653217542450875e-05,
+    "tps_barrier": 9.690667866379954e-06
+  },
+  {
+    "step": 46,
+    "loss": 2.592996597290039,
+    "grad_norm": 0.00704613234847784,
+    "geometry": 0.4699822664260864,
+    "raw_euclidean_mean": 1.4527915716171265,
+    "anchor": 388.205810546875,
+    "smooth": 67.32705688476562,
+    "triangle_barrier": 6.156025847303681e-06,
+    "tps_barrier": 0.0
+  },
+  {
+    "step": 67,
+    "loss": 2.5173420906066895,
+    "grad_norm": 0.0022769798524677753,
+    "geometry": 0.4345654547214508,
+    "raw_euclidean_mean": 1.389488697052002,
+    "anchor": 429.1617431640625,
+    "smooth": 61.22265625,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 0.0
+  },
+  {
+    "step": 89,
+    "loss": 2.437372922897339,
+    "grad_norm": 0.001891603460535407,
+    "geometry": 0.475161612033844,
+    "raw_euclidean_mean": 1.4369165897369385,
+    "anchor": 445.6679382324219,
+    "smooth": 53.54376983642578,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 0.0
+  },
+  {
+    "step": 111,
+    "loss": 2.4315736293792725,
+    "grad_norm": 0.0009449852514080703,
+    "geometry": 0.46977347135543823,
+    "raw_euclidean_mean": 1.432570457458496,
+    "anchor": 451.57720947265625,
+    "smooth": 52.932289123535156,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 0.0
+  },
+  {
+    "step": 132,
+    "loss": 2.4310038089752197,
+    "grad_norm": 0.0001458431506762281,
+    "geometry": 0.4644138514995575,
+    "raw_euclidean_mean": 1.4226675033569336,
+    "anchor": 453.90545654296875,
+    "smooth": 52.93894958496094,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 0.0
+  },
+  {
+    "step": 134,
+    "loss": 2.4310038089752197,
+    "grad_norm": 0.00016086945834103972,
+    "geometry": 0.4644341766834259,
+    "raw_euclidean_mean": 1.4225670099258423,
+    "anchor": 453.9048767089844,
+    "smooth": 52.93799591064453,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 0.0
+  },
+  {
+    "step": 153,
+    "loss": 2.4309639930725098,
+    "grad_norm": 4.8145091568585485e-05,
+    "geometry": 0.4645760953426361,
+    "raw_euclidean_mean": 1.4228386878967285,
+    "anchor": 453.67010498046875,
+    "smooth": 52.95238494873047,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 0.0
+  },
+  {
+    "step": 159,
+    "loss": 2.4309639930725098,
+    "grad_norm": 4.8145091568585485e-05,
+    "geometry": 0.4645760953426361,
+    "raw_euclidean_mean": 1.4228386878967285,
+    "anchor": 453.67010498046875,
+    "smooth": 52.95238494873047,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 0.0
+  },
+  {
+    "step": 165,
+    "loss": 2.4309639930725098,
+    "grad_norm": 4.8145091568585485e-05,
+    "geometry": 0.4645760953426361,
+    "raw_euclidean_mean": 1.4228386878967285,
+    "anchor": 453.67010498046875,
+    "smooth": 52.95238494873047,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 0.0
+  },
+  {
+    "step": 171,
+    "loss": 2.4309639930725098,
+    "grad_norm": 4.8145091568585485e-05,
+    "geometry": 0.4645760953426361,
+    "raw_euclidean_mean": 1.4228386878967285,
+    "anchor": 453.67010498046875,
+    "smooth": 52.95238494873047,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 0.0
+  },
+  {
+    "step": 177,
+    "loss": 2.4309639930725098,
+    "grad_norm": 4.8145091568585485e-05,
+    "geometry": 0.4645760953426361,
+    "raw_euclidean_mean": 1.4228386878967285,
+    "anchor": 453.67010498046875,
+    "smooth": 52.95238494873047,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 0.0
+  },
+  {
+    "step": 183,
+    "loss": 2.4309639930725098,
+    "grad_norm": 4.8145091568585485e-05,
+    "geometry": 0.4645760953426361,
+    "raw_euclidean_mean": 1.4228386878967285,
+    "anchor": 453.67010498046875,
+    "smooth": 52.95238494873047,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 0.0
+  },
+  {
+    "step": 189,
+    "loss": 2.4309639930725098,
+    "grad_norm": 4.8145091568585485e-05,
+    "geometry": 0.4645760953426361,
+    "raw_euclidean_mean": 1.4228386878967285,
+    "anchor": 453.67010498046875,
+    "smooth": 52.95238494873047,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 0.0
+  },
+  {
+    "step": 195,
+    "loss": 2.4309639930725098,
+    "grad_norm": 4.8145091568585485e-05,
+    "geometry": 0.4645760953426361,
+    "raw_euclidean_mean": 1.4228386878967285,
+    "anchor": 453.67010498046875,
+    "smooth": 52.95238494873047,
+    "triangle_barrier": 0.0,
+    "tps_barrier": 0.0
+  }
+]

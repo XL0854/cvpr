@@ -1,0 +1,92 @@
+[
+  {
+    "outer": 1,
+    "cumulative_seconds": 0.17015782603994012,
+    "closure_evals": 23,
+    "local_evals": 23,
+    "accepted_feasible": true,
+    "parameter_change_max": 29.7973575592041,
+    "loss": 0.4743596315383911,
+    "grad_norm": 0.008473783731460571,
+    "terms": {
+      "geometry": 0.20106135308742523,
+      "raw_euclidean_mean": 0.7780625820159912,
+      "anchor": 27.7235164642334,
+      "smooth": 10.892563819885254,
+      "triangle_barrier": 0.0,
+      "tps_barrier": 0.0
+    }
+  },
+  {
+    "outer": 2,
+    "cumulative_seconds": 0.344434326980263,
+    "closure_evals": 45,
+    "local_evals": 22,
+    "accepted_feasible": true,
+    "parameter_change_max": 9.924800872802734,
+    "loss": 0.4537169337272644,
+    "grad_norm": 0.0003557490708772093,
+    "terms": {
+      "geometry": 0.16260194778442383,
+      "raw_euclidean_mean": 0.6828766465187073,
+      "anchor": 30.506465911865234,
+      "smooth": 11.50510311126709,
+      "triangle_barrier": 0.0,
+      "tps_barrier": 0.0
+    }
+  },
+  {
+    "outer": 3,
+    "cumulative_seconds": 0.5444732229225338,
+    "closure_evals": 70,
+    "local_evals": 25,
+    "accepted_feasible": true,
+    "parameter_change_max": 1.540827989578247,
+    "loss": 0.45337337255477905,
+    "grad_norm": 9.44736457313411e-05,
+    "terms": {
+      "geometry": 0.16263927519321442,
+      "raw_euclidean_mean": 0.6824331283569336,
+      "anchor": 30.866296768188477,
+      "smooth": 11.450074195861816,
+      "triangle_barrier": 0.0,
+      "tps_barrier": 0.0
+    }
+  },
+  {
+    "outer": 4,
+    "cumulative_seconds": 0.5897569819353521,
+    "closure_evals": 76,
+    "local_evals": 6,
+    "accepted_feasible": true,
+    "parameter_change_max": 0.0,
+    "loss": 0.45337337255477905,
+    "grad_norm": 9.44736457313411e-05,
+    "terms": {
+      "geometry": 0.16263927519321442,
+      "raw_euclidean_mean": 0.6824331283569336,
+      "anchor": 30.866296768188477,
+      "smooth": 11.450074195861816,
+      "triangle_barrier": 0.0,
+      "tps_barrier": 0.0
+    }
+  },
+  {
+    "outer": 5,
+    "cumulative_seconds": 0.6468883969355375,
+    "closure_evals": 82,
+    "local_evals": 6,
+    "accepted_feasible": true,
+    "parameter_change_max": 0.0,
+    "loss": 0.45337337255477905,
+    "grad_norm": 9.44736457313411e-05,
+    "terms": {
+      "geometry": 0.16263927519321442,
+      "raw_euclidean_mean": 0.6824331283569336,
+      "anchor": 30.866296768188477,
+      "smooth": 11.450074195861816,
+      "triangle_barrier": 0.0,
+      "tps_barrier": 0.0
+    }
+  }
+]

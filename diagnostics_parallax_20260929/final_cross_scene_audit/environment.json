@@ -1,0 +1,20 @@
+{
+  "python": "3.9.25 (main, Nov  3 2025, 22:33:05) \n[GCC 11.2.0]",
+  "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+  "torch": "2.8.0+cu128",
+  "torchvision": "0.23.0+cu128",
+  "opencv": "4.13.0",
+  "numpy": "2.0.1",
+  "tool_session_cuda_available": false,
+  "tool_session_cuda_device_count": 0,
+  "nvidia_smi": {
+    "command": [
+      "nvidia-smi",
+      "-L"
+    ],
+    "returncode": 9,
+    "stdout": "NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.\n\n",
+    "stderr": ""
+  },
+  "note": "GPU RoMa was run manually in the user shell; this tool session cannot initialize CUDA, so failed CUDA probes are excluded from performance results."
+}
